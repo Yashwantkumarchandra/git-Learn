@@ -1,0 +1,370 @@
+
+
+------------------------------------------------------------
+Application started
+23:11:44.809: (I)  7120: ice.systeminfo      : OS version: "Windows 10 Version 2009"
+23:11:44.810: (I)  7120: ice.systeminfo      : Kernel version: "10.0.22000"
+23:11:44.810: (I)  7120: ice.systeminfo      : CPU architecture: "x86_64"
+23:11:44.810: (I)  7120: ice.systeminfo      : Build ABI: "i386-little_endian-ilp32"
+23:11:44.810: (I)  7120: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream PDF Editor/icepdfeditor.exe"
+23:11:44.810: (I)  7120: ice.systeminfo      : BuildVersion: "2.6.2"
+23:11:44.810: (I)  7120: ice.systeminfo      : DisplayVersion: "2.62"
+23:11:44.810: (I)  7120: ice.systeminfo      : PID: 9768
+23:11:44.810: (I)  7120: ice.systeminfo      : Main thread id: 7120
+23:11:44.810: (I)  7120: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: true
+23:11:44.810: (I)  7120: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+23:11:44.811: (I)  7120: ice.systeminfo      : Qt Screen 0: primary, winScale: 125%, pixelRatio: 1.25, logDpi: 96, phyDpi: 126.557, log/phy: 76%, geometry: {x:0, y:0, w: 1536, h: 864}, available: {x:0, y:0, w: 1536, h: 816}
+23:11:44.811: (I)  7120: ice.systeminfo      : 
+23:11:44.814: (I)  7120: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream PDF Editor/translations" , file prefix: "icepdfeditor" system locale: "en_IN"
+23:11:44.814: (W)  7120: ice.translator      : IceTranslator::translate()              : Can't translate: LocaleName not found: "en_IN"
+23:11:44.815: (W)  7120: ice.translator      : IceTranslator::translate()              : Can't translate: LocaleName not found: "en_IN"
+23:11:44.820: (I)  7120: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+23:11:44.820: (W)  7120: ice.translator      : IceTranslator::translate()              : Current LocaleName is the same as requested: "en"
+23:11:44.820: (I)  7120: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+23:11:44.820: (I)  7120: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1536x864)
+23:11:45.563: (I)  7120: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+23:11:45.613: (I)  7120: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 51 msec , Enabled: true , Version: "OpenSSL 1.1.1h  22 Sep 2020"
+23:11:45.614: (I)  7120: sx                  : SX::init()                              : PDFCore file: OK "C:\\Program Files (x86)\\Icecream PDF Editor\\pdfcore-x86.dll"
+23:11:45.614: (I)  7120: sx                  : SX::init()                              : PDFCore file: OK "C:\\Program Files (x86)\\Icecream PDF Editor\\pdf-xpansion.pds"
+23:11:45.614: (I)  7120: sx                  : SX::init()                              : PDFCore file: OK "C:\\Program Files (x86)\\Icecream PDF Editor\\pdf-xpansion-cjk.pds"
+23:11:45.615: (I)  7120: sx                  : SX::init()                              : PDFCore file: OK "C:\\Users\\yashw\\AppData\\Local\\Icecream\\Icecream PDF Editor\\sx.dat"
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "en_US" FontInfo(PS: Calibri, LF: Calibri, DN: Calibri, F: (400, 0, 5), OF: QSet(FontFlags(700, 2, 5), FontFlags(700, 0, 5), FontFlags(400, 2, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "en_US-bold" FontInfo(PS: Calibri-Bold, LF: Calibri, DN: Calibri, F: (700, 0, 5), OF: QSet(FontFlags(700, 2, 5), FontFlags(700, 0, 5), FontFlags(400, 2, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "ja_JP" FontInfo(PS: YuGothic-Regular, LF: Yu Gothic, DN: Yu Gothic, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "ja_JP-bold" FontInfo(PS: YuGothic-Bold, LF: Yu Gothic, DN: Yu Gothic, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "ko_KR" FontInfo(PS: MalgunGothic, LF: Malgun Gothic, DN: Malgun Gothic, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "ko_KR-bold" FontInfo(PS: MalgunGothicBold, LF: Malgun Gothic, DN: Malgun Gothic, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_CN" FontInfo(PS: MicrosoftYaHei, LF: Microsoft YaHei, DN: Microsoft YaHei, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_CN-bold" FontInfo(PS: MicrosoftYaHei-Bold, LF: Microsoft YaHei, DN: Microsoft YaHei, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_HK" FontInfo(PS: MicrosoftJhengHeiRegular, LF: Microsoft JhengHei, DN: Microsoft JhengHei, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_HK-bold" FontInfo(PS: MicrosoftJhengHeiBold, LF: Microsoft JhengHei, DN: Microsoft JhengHei, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_TW" FontInfo(PS: MicrosoftJhengHeiRegular, LF: Microsoft JhengHei, DN: Microsoft JhengHei, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+23:11:45.793: (I)  7120:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_TW-bold" FontInfo(PS: MicrosoftJhengHeiBold, LF: Microsoft JhengHei, DN: Microsoft JhengHei, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+23:11:45.837: (I)  7120:                     : MinHookHelper::installHook()            : MH_InstallHook DONE 0x1063E475 target: 0x6e715cb0 detour: 0xe58950
+23:11:45.877: (I)  7120:                     : MinHookHelper::installHook()            : MH_InstallHook DONE 0x10501CC0 target: 0x6e641cc0 detour: 0xe57cc0
+23:11:45.919: (I)  7120:                     : MinHookHelper::installHook()            : MH_InstallHook DONE 0x104FC8A0 target: 0x6e63c8a0 detour: 0xe58890
+23:11:45.962: (I)  7120:                     : MinHookHelper::installHook()            : MH_InstallHook DONE 0x105D7220 target: 0x6e717220 detour: 0xe57e40
+23:11:45.963: (I)  7120: sx                  : SX::init()                              : Catch getContent: true
+23:11:45.963: (I)  7120: sx                  : SX::init()                              : Sdk library init done. Version: "12.0.3.3"
+23:11:46.164: (I)  7120:                     : DebenuService::init()                   : Debenu lbrary init done
+23:11:46.166: (I)  7120:                     : DefaultsProvider::DefaultsProvider()    : Defaults loaded:
+23:11:46.166: (I)  7120:                     : DefaultsProvider::DefaultsProvider()    :  - opacities:      QMap()
+23:11:46.166: (I)  7120:                     : DefaultsProvider::DefaultsProvider()    :  - pens:           QMap()
+23:11:46.166: (I)  7120:                     : DefaultsProvider::DefaultsProvider()    :  - brushes:        QMap()
+23:11:46.166: (I)  7120:                     : DefaultsProvider::DefaultsProvider()    :  - recent colors:  (QColor(Invalid), QColor(Invalid), QColor(Invalid), QColor(Invalid), QColor(Invalid))
+23:11:46.166: (I)  7120:                     : DefaultsProvider::DefaultsProvider()    :  - eraser:         50
+23:11:46.166: (I)  7120:                     : DefaultsProvider::DefaultsProvider()    :  - content chars:  CharFormat{"Calibri", non-bold, non-italic, canToggle(bold, italic), Sz: 11, #000000, Align-Undefined}
+23:11:46.167: (I)  7120:                     : DefaultsProvider::DefaultsProvider()    :  - annot chars:    CharFormat{"Calibri", non-bold, non-italic, non-underlined, canToggle(bold, italic, underline), Sz: 11, #ff0000, Align-Left}
+23:11:46.167: (I)  7120:                     : IceStyleManager::IceStyleManager()      : Init StyleManager done
+23:11:46.167: (I)  7120:                     : IceStyleManager::setCurrentStyle()      : Set current style: "__Style"
+23:11:46.167: (I)  7120:                     : IceStyleManager::setCurrentStyle()      : Default app font was changed to QFont(Segoe UI,-1,14,5,50,0,0,0,0,0)
+23:11:46.168: (W)  7120: pdf.doc.stamps      : StampsModel::readFromFile()             : Cant open "C:\\Users\\yashw\\AppData\\Local\\Icecream\\Icecream PDF Editor\\stamps.dat" for reading. Try to create standard stamps.
+23:11:46.168: (W)  7120: pdf.doc.stamps      : StampsModel::Private::createStandardStam: Create standard stamps
+23:11:46.235: (!)  7120:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Bahnschrift SemiBold SemiCondensed' is too long.
+23:11:46.251: (!)  7120:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Bahnschrift SemiLight SemiCondensed' is too long.
+23:11:46.581: (!)  7120:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Segoe UI Variable Display Semibold' is too long.
+23:11:46.587: (!)  7120:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Segoe UI Variable Display Semilight' is too long.
+23:11:46.604: (!)  7120:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Segoe UI Variable Small Semibold' is too long.
+23:11:46.608: (!)  7120:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Segoe UI Variable Small Semilight' is too long.
+23:11:46.632: (!)  7120:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Segoe UI Variable Text Semilight' is too long.
+23:11:46.773: (I)  7120:                     : FontFamiliesComboBox::Private::fillCombo: Fonts popup is filled in 577 ms. Fonts count: 132
+23:11:46.822: (I)  7120:                     : FontFamiliesComboBox::Private::fillCombo: Fonts combo adjust size is done in 48 ms
+23:11:46.846: (I)  7120: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+23:11:46.847: (I)  7120: ice.splash          : IceSplash::Private::onMinDurationReached: Main window still not exists
+23:11:46.853: (I)  7120: ice.windowgeometry  : IceWindow::readState()                  : Loaded initial geometry: QRect(68,5 1400x806)
+23:11:46.853: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::NavBar_ShowTab , userData: QVariant(Enums::NavBarTab, "Thumbnails")
+23:11:46.854: (I)  7120: ice.splash          : IceSplash::setMainWindowIsReady()       : Main window was created. Finish splash using MainWindow2(0x475fb48)
+23:11:46.890: (I)  7120:                     : NativeWindowUtils::eventFilter()        : MainWindow(0x475fb48, name="MainWindow2") WinId created: 0xe05a0
+23:11:46.891: (I)  7120: ice.windowgeometry  : IceWindow::Private::onScreenChanged()   : MainWindow2(0x475fb48) initial pixel ratio: 1.25 initial screen: QScreen(0x161cd28, name="\\\\.\\DISPLAY1")
+23:11:46.897: (I)  7120:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  : Custom margins applyed for QWindow QWidgetWindow(0x7b2db48, name="MainWindow2Window") QMargins(-9, -38, -9, -9) caption 29 dpr 1.25
+23:11:46.898: (I)  7120:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  : Custom margins are applyed for existing QPlatformWindow 0x7a99c48 QMargins(-9, -38, -9, -9) caption 29 dpr 1.25
+23:11:46.898: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Help_Intro , userData: QVariant(Invalid)
+23:11:47.038: (I)  7120:                     : LicenseService::licenseFile()           : License full path: "C:\\Users\\yashw\\AppData\\Local\\Icecream\\Icecream PDF Editor\\license.lic"
+23:11:47.038: (!)  7120:                     : LicenseService::loadLicenseInfo()       : "License file not found: C:\\Users\\yashw\\AppData\\Local\\Icecream\\Icecream PDF Editor\\license.lic"
+23:11:47.049: (I)  7120:                     : AssocFilesHandler::Private::isDefault() : QueryCurrentDefault( ".pdf" ) suceeded, result: "MSEdgePDF" isDefault: false
+23:11:52.136: (I)  7120: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.62&pid=6&mh=16589014358777975a014a6a99cefcb4&h=5bec4cbe2a97a916694812b5eb323bd4"
+23:11:53.145: (I)  7120: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.62"
+23:11:53.145: (I)  7120: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.62" current version: 2.62 result: 0
+23:12:01.457: (I)  7120: pdf.ui.mainwindow   : MainWindow::onActionTriggered::lambda() : Intro finished
+23:12:14.590: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::File_Open , userData: QVariant(Invalid)
+23:12:30.035: (I)  7120: pdf.app             : Application::openPdfFiles               : Entering 'Open pdf files: E:/download/SIH Senior software edition 3ft x 6ft standy.pdf'
+23:12:30.035: (I)  7120: pdf.doc             : DocWrapper::DocWrapper                  :   Entering 'Create document: E:/download/SIH Senior software edition 3ft x 6ft standy.pdf'
+23:12:30.035: (I)  7120: pdf.doc             : DocWrapper::DocWrapper()                :     Trying to load document from file: "E:/download/SIH Senior software edition 3ft x 6ft standy.pdf"
+23:12:30.035: (I)  7120: pdf.doc             : DocWrapper::DocWrapper()                :     Document size: 145865
+23:12:30.037: (I)  7120: ice.progress        : ProgressDialog::ProgressDialog()        :     Instance created: Dialog_Progress(0xf116890)
+23:12:30.037: (I)  7120: pdf.doc             : DocWrapper::DocWrapper()                :     Current progress dialog visiblity: false
+23:12:30.037: (I)  3424: pdf.doc             : DocWrapper::{ctor}::lambda()            :     Entering 'LoadDocFuture'
+23:12:30.048: (I)  3424: pdf.doc.security    : DocSecurity::DocSecurity()              :       Document contains no security parameters
+23:12:30.049: (I)  3424: pdf.doc             : checkRichContent                        :       Entering 'Check rich content'
+23:12:30.049: (I)  3424:                     : checkRichContent()                      :         Pages count: 1
+23:12:30.050: (I)  3424:                     : checkRichContent()                      :         All pages have valid RC
+23:12:30.050: (I)  3424: pdf.doc             : checkRichContent                        :       Leaving 'Check rich content'. Elapsed time: 1
+23:12:30.067: (I)  7120: pdf.doc             : DocWrapper::createViewerHostWidget()    :       Create viewer for document
+23:12:30.071: (I)  3424: pdf.doc             : DocWrapper::init                        :       Entering 'Init document: SIH Senior software edition 3ft x 6ft standy.pdf'
+23:12:30.071: (I)  3424: pdf.doc             : DocWrapper::init()                      :         Get viewable representation
+23:12:30.071: (I)  3424: pdf.doc             : DocWrapper::init()                      :         Load document into viewer
+23:12:30.073: (I)  3424: pdf.doc             : DocWrapper::init()                      :         Doc creator: "" producer: "iLovePDF"
+23:12:30.073: (I)  3424: pdf.tools.forms     : FormsToolMode::FormsToolMode()          :         Form fields count: 0
+23:12:30.073: (I)  3424: pdf.doc             : DocWrapper::init()                      :         Load annotations
+23:12:30.073: (I)  3424: pdf.doc             : DocWrapper::init()                      :         Load boombarks
+23:12:30.073: (I)  3424: pdf.doc             : DocWrapper::init()                      :         Load pages
+23:12:30.073: (I)  3424: pdf.doc.pagesmodel  : PagesModel::PagesModel()                :         Thumbnails tread pool max thread count: 1
+23:12:30.073: (I)  3424: pdf.doc             : DocWrapper::init()                      :         Misc init
+23:12:30.074: (I)  3424: pdf.doc             : DocWrapper::init                        :       Leaving 'Init document: SIH Senior software edition 3ft x 6ft standy.pdf'. Elapsed time: 2
+23:12:30.074: (I)  3424: pdf.doc             : DocWrapper::{ctor}::lambda()            :     Leaving 'LoadDocFuture'. Elapsed time: 37
+23:12:30.074: (I)  7120: pdf.doc             : DocWrapper::DocWrapper()                :     Load doc finished OK DocWrapper(SIH Senior software edition 3ft x 6ft standy.pdf)
+23:12:30.074: (I)  7120: pdf.doc             : DocWrapper::DocWrapper                  :   Leaving 'Create document: E:/download/SIH Senior software edition 3ft x 6ft standy.pdf'. Elapsed time: 39
+23:12:30.074: (I)  7120: pdf.app             : Application::registerDocWrapper()       :   Notify document created: DocWrapper(SIH Senior software edition 3ft x 6ft standy.pdf)
+23:12:30.083: (I)  7120:                     : ViewerHostWidget::Private::checkDpiChang:   Viewer host DPI changed 120
+23:12:30.086: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   :   Entering 'Change tool from Enums::ToolType::Null to Enums::ToolType::ContentSelectTool '
+23:12:30.086: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:     invoke sxViewer->set_ToolMode( SX::Viewer::tool_mode_page_content ) because current sxToolMode is SX::Viewer::tool_mode_none
+23:12:30.086: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():     SxTool changed: SX::Viewer::tool_mode_page_content
+23:12:30.086: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   :   Leaving 'Change tool from Enums::ToolType::Null to Enums::ToolType::ContentSelectTool '. Elapsed time: 0
+23:12:30.087: (I)  7120: pdf.doc             : DocWrapper::markInitialized()           :   Global init done
+23:12:30.087: (I)  7120: pdf.app             : Application::setCurrentDocWrapper()     :   Notify current doc changed to: DocWrapper(SIH Senior software edition 3ft x 6ft standy.pdf)
+23:12:30.094: (I)  7120: pdf.app             : Application::openPdfFiles               : Leaving 'Open pdf files: E:/download/SIH Senior software edition 3ft x 6ft standy.pdf'. Elapsed time: 60
+23:12:34.713: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:4294967295, clickedPage:0, zone:None'
+23:12:34.713: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxToolPage()    :   SetToolPage: 0
+23:12:34.713: (I)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: SX::Content::rich_type_raster sel: true prim true
+23:12:34.713: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:4294967295, clickedPage:0, zone:None'. Elapsed time: 0
+23:12:35.041: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'
+23:12:35.041: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'. Elapsed time: 0
+23:12:35.838: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:12:35.838: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:12:37.466: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:12:37.466: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:12:38.099: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:12:38.100: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:12:43.698: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:12:43.698: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:12:44.679: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:12:44.680: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:12:45.412: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:12:45.413: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:12:45.962: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:12:45.963: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:12:56.257: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Viewer_ZoomIn , userData: QVariant(Invalid)
+23:12:57.056: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Viewer_ZoomIn , userData: QVariant(Invalid)
+23:12:58.150: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:12:58.150: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:13:01.550: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:13:01.551: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:13:06.811: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Viewer_ZoomIn , userData: QVariant(Invalid)
+23:13:08.234: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:13:08.235: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:13:13.380: (I)  7120:                     : NativeWindowUtils::eventFilter()        : IceWindow(0x479fc38, name="IcePopupButtonPopup") WinId created: 0x407b6
+23:13:13.381: (I)  7120: ice.windowgeometry  : IceWindow::Private::onScreenChanged()   : IcePopupButtonPopup(0x479fc38) initial pixel ratio: 1.25 initial screen: QScreen(0x161cd28, name="\\\\.\\DISPLAY1")
+23:13:20.804: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentHandTool")
+23:13:20.804: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentSelectTool to Enums::ToolType::ContentHandTool '
+23:13:20.804: (I)  7120: pdf.tools           : AbstractToolMode::clearSelection()      :   Clear sxToolPc selection
+23:13:20.804: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   invoke sxViewer->set_ToolMode( SX::Viewer::tool_mode_none ) because current sxToolMode is SX::Viewer::tool_mode_page_content
+23:13:20.806: (W)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxToolState is null
+23:13:20.807: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentSelectTool to Enums::ToolType::ContentHandTool '. Elapsed time: 2
+23:13:30.445: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentEditTextTool")
+23:13:30.446: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentHandTool to Enums::ToolType::ContentEditTextTool '
+23:13:30.447: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   invoke sxViewer->set_ToolMode( SX::Viewer::tool_mode_page_content ) because current sxToolMode is SX::Viewer::tool_mode_none
+23:13:30.447: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:13:30.447: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentHandTool to Enums::ToolType::ContentEditTextTool '. Elapsed time: 1
+23:13:41.564: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentEditTextTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:4294967295, clickedPage:0, zone:None'
+23:13:41.565: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxToolPage()    :   SetToolPage: 0
+23:13:41.571: (I)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: SX::Content::rich_type_text sel: true prim true
+23:13:41.571: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_edit_text
+23:13:41.571: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentEditTextTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:4294967295, clickedPage:0, zone:None'. Elapsed time: 6
+23:13:42.642: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentEditTextTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_text, toolPage:0, zone:None'
+23:13:42.642: (I)  7120: pdf.tools           : AbstractToolMode::clearSelection()      :   Clear sxToolPc selection
+23:13:42.644: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentEditTextTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_text, toolPage:0, zone:None'. Elapsed time: 1
+23:13:45.313: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentEditTextTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'
+23:13:45.314: (I)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: SX::Content::rich_type_text sel: true prim true
+23:13:45.314: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_edit_text
+23:13:45.319: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentEditTextTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'. Elapsed time: 5
+23:14:10.544: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentEditTextTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_text, toolPage:0, zone:None'
+23:14:10.544: (I)  7120: pdf.tools           : AbstractToolMode::clearSelection()      :   Clear sxToolPc selection
+23:14:10.549: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentEditTextTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_text, toolPage:0, zone:None'. Elapsed time: 4
+23:14:12.277: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentEditTextTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'
+23:14:12.278: (I)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: SX::Content::rich_type_text sel: true prim true
+23:14:12.279: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_edit_text
+23:14:12.282: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentEditTextTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'. Elapsed time: 4
+23:14:21.352: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentDrawLineTool")
+23:14:21.352: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentEditTextTool to Enums::ToolType::ContentDrawLineTool '
+23:14:21.352: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   sxViewer is already in SX::Viewer::tool_mode_page_content invoke onSxToolStateChanged(cachedSxToolState)
+23:14:21.352: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:14:21.352: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_select
+23:14:21.353: (W)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: sxObj not exists!
+23:14:21.353: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentEditTextTool to Enums::ToolType::ContentDrawLineTool '. Elapsed time: 1
+23:14:23.310: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentDrawCircleTool")
+23:14:23.311: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentDrawLineTool to Enums::ToolType::ContentDrawCircleTool '
+23:14:23.312: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   sxViewer is already in SX::Viewer::tool_mode_page_content invoke onSxToolStateChanged(cachedSxToolState)
+23:14:23.312: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:14:23.312: (W)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: sxObj not exists!
+23:14:23.312: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentDrawLineTool to Enums::ToolType::ContentDrawCircleTool '. Elapsed time: 1
+23:14:24.721: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentDrawRectTool")
+23:14:24.721: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentDrawCircleTool to Enums::ToolType::ContentDrawRectTool '
+23:14:24.722: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   sxViewer is already in SX::Viewer::tool_mode_page_content invoke onSxToolStateChanged(cachedSxToolState)
+23:14:24.722: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:14:24.723: (W)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: sxObj not exists!
+23:14:24.723: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentDrawCircleTool to Enums::ToolType::ContentDrawRectTool '. Elapsed time: 1
+23:14:26.018: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentDrawCircleTool")
+23:14:26.018: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentDrawRectTool to Enums::ToolType::ContentDrawCircleTool '
+23:14:26.018: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   sxViewer is already in SX::Viewer::tool_mode_page_content invoke onSxToolStateChanged(cachedSxToolState)
+23:14:26.018: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:14:26.018: (W)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: sxObj not exists!
+23:14:26.018: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentDrawRectTool to Enums::ToolType::ContentDrawCircleTool '. Elapsed time: 0
+23:14:27.998: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentDrawArrowTool")
+23:14:27.998: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentDrawCircleTool to Enums::ToolType::ContentDrawArrowTool '
+23:14:27.998: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   sxViewer is already in SX::Viewer::tool_mode_page_content invoke onSxToolStateChanged(cachedSxToolState)
+23:14:27.998: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:14:27.998: (W)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: sxObj not exists!
+23:14:27.998: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentDrawCircleTool to Enums::ToolType::ContentDrawArrowTool '. Elapsed time: 0
+23:14:29.925: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentDrawCircleTool")
+23:14:29.925: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentDrawArrowTool to Enums::ToolType::ContentDrawCircleTool '
+23:14:29.925: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   sxViewer is already in SX::Viewer::tool_mode_page_content invoke onSxToolStateChanged(cachedSxToolState)
+23:14:29.925: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:14:29.925: (W)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: sxObj not exists!
+23:14:29.925: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentDrawArrowTool to Enums::ToolType::ContentDrawCircleTool '. Elapsed time: 0
+23:14:39.555: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentDrawCircleTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'
+23:14:39.555: (I)  7120: pdf.tools           : AbstractToolMode::clearSelection()      :   Clear sxToolPc selection
+23:14:39.556: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_add_ellipse
+23:14:39.556: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentDrawCircleTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'. Elapsed time: 0
+23:14:41.224: (W)  7120:                     : ContentToolMode::createShape()          : point(283.957; 291.057) point(438.929; 305.8)
+23:14:41.224: (I)  7120: pdf.tools           : ContentToolMode::setObjectSel()         : SelObj: SX::Content::rich_type_group sel: true prim true
+23:14:41.240: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            : SetToolPcMode: SX::Viewer::tool_pc_mode_edit_shape
+23:14:42.810: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentDrawRectTool")
+23:14:42.810: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentDrawCircleTool to Enums::ToolType::ContentDrawRectTool '
+23:14:42.810: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   sxViewer is already in SX::Viewer::tool_mode_page_content invoke onSxToolStateChanged(cachedSxToolState)
+23:14:42.810: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:14:42.811: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_select
+23:14:42.811: (I)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: SX::Content::rich_type_group sel: false prim false
+23:14:42.811: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentDrawCircleTool to Enums::ToolType::ContentDrawRectTool '. Elapsed time: 0
+23:14:53.041: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'
+23:14:53.042: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_add_rect
+23:14:53.042: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'. Elapsed time: 0
+23:14:53.262: (W)  7120:                     : ContentToolMode::createShape()          : point(332.3; 299.286) point(332.3; 299.286)
+23:14:53.893: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_add_rect, toolPage:0, zone:None'
+23:14:53.894: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_add_rect, toolPage:0, zone:None'. Elapsed time: 0
+23:14:54.119: (W)  7120:                     : ContentToolMode::createShape()          : point(332.3; 299.286) point(332.3; 299.286)
+23:15:00.925: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentDrawCircleTool")
+23:15:00.926: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentDrawRectTool to Enums::ToolType::ContentDrawCircleTool '
+23:15:00.926: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   sxViewer is already in SX::Viewer::tool_mode_page_content invoke onSxToolStateChanged(cachedSxToolState)
+23:15:00.926: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:15:00.927: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_select
+23:15:00.927: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentDrawRectTool to Enums::ToolType::ContentDrawCircleTool '. Elapsed time: 1
+23:15:04.313: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentDrawCircleTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'
+23:15:04.313: (I)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: SX::Content::rich_type_group sel: true prim true
+23:15:04.313: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentDrawCircleTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'. Elapsed time: 0
+23:15:04.330: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            : SetToolPcMode: SX::Viewer::tool_pc_mode_edit_shape
+23:15:13.793: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentDrawCircleTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_shape, toolPage:0, zone:None'
+23:15:13.794: (I)  7120: pdf.tools           : AbstractToolMode::clearSelection()      :   Clear sxToolPc selection
+23:15:13.794: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_add_ellipse
+23:15:13.794: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentDrawCircleTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_shape, toolPage:0, zone:None'. Elapsed time: 0
+23:15:14.010: (W)  7120:                     : ContentToolMode::createShape()          : point(198.929; 436.086) point(198.929; 436.086)
+23:15:16.431: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginTool , userData: QVariant(Enums::ToolType, "ContentDrawRectTool")
+23:15:16.432: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentDrawCircleTool to Enums::ToolType::ContentDrawRectTool '
+23:15:16.432: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   sxViewer is already in SX::Viewer::tool_mode_page_content invoke onSxToolStateChanged(cachedSxToolState)
+23:15:16.432: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:15:16.433: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_select
+23:15:16.433: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentDrawCircleTool to Enums::ToolType::ContentDrawRectTool '. Elapsed time: 1
+23:15:30.457: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'
+23:15:30.458: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_add_rect
+23:15:30.458: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'. Elapsed time: 0
+23:15:33.710: (W)  7120:                     : ContentToolMode::createShape()          : point(285.671; 293.114) point(430.7; 308.2)
+23:15:33.711: (I)  7120: pdf.tools           : ContentToolMode::setObjectSel()         : SelObj: SX::Content::rich_type_group sel: true prim true
+23:15:33.718: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            : SetToolPcMode: SX::Viewer::tool_pc_mode_edit_shape
+23:15:35.783: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_shape, toolPage:0, zone:None'
+23:15:35.783: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_shape, toolPage:0, zone:None'. Elapsed time: 0
+23:15:36.829: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_shape, toolPage:0, zone:None'
+23:15:36.830: (I)  7120: pdf.tools           : AbstractToolMode::clearSelection()      :   Clear sxToolPc selection
+23:15:36.830: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_add_rect
+23:15:36.830: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_shape, toolPage:0, zone:None'. Elapsed time: 1
+23:15:37.049: (W)  7120:                     : ContentToolMode::createShape()          : point(290.814; 270.143) point(290.814; 270.143)
+23:15:38.268: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_add_rect, toolPage:0, zone:None'
+23:15:38.268: (I)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: SX::Content::rich_type_group sel: true prim true
+23:15:38.269: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_add_rect, toolPage:0, zone:None'. Elapsed time: 0
+23:15:38.282: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            : SetToolPcMode: SX::Viewer::tool_pc_mode_edit_shape
+23:15:43.433: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_shape, toolPage:0, zone:None'
+23:15:43.433: (I)  7120: pdf.tools           : AbstractToolMode::clearSelection()      :   Clear sxToolPc selection
+23:15:43.434: (I)  7120: pdf.tools           : ContentToolMode::setPcMode()            :   SetToolPcMode: SX::Viewer::tool_pc_mode_add_rect
+23:15:43.434: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentDrawRectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_edit_shape, toolPage:0, zone:None'. Elapsed time: 0
+23:15:43.661: (W)  7120:                     : ContentToolMode::createShape()          : point(364.529; 353.114) point(364.529; 353.114)
+23:16:07.822: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginToolMode , userData: QVariant(Enums::ToolMode, "AnnotsMode")
+23:16:07.822: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ContentDrawRectTool to Enums::ToolType::AnnotsSelectTool '
+23:16:07.823: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   invoke sxViewer->set_ToolMode( SX::Viewer::tool_mode_annot ) because current sxToolMode is SX::Viewer::tool_mode_page_content
+23:16:07.826: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_annot
+23:16:07.826: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxToolPage()    :   SetToolPage: 0
+23:16:07.826: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ContentDrawRectTool to Enums::ToolType::AnnotsSelectTool '. Elapsed time: 4
+23:16:09.425: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginToolMode , userData: QVariant(Enums::ToolMode, "ManagePagesMode")
+23:16:09.425: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::AnnotsSelectTool to Enums::ToolType::ManagePagesDummyTool '
+23:16:09.425: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   invoke sxViewer->set_ToolMode( SX::Viewer::tool_mode_none ) because current sxToolMode is SX::Viewer::tool_mode_annot
+23:16:09.425: (W)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxToolState is null
+23:16:09.429: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::AnnotsSelectTool to Enums::ToolType::ManagePagesDummyTool '. Elapsed time: 3
+23:16:14.863: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Edit_Cut , userData: QVariant(Invalid)
+23:16:15.887: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Edit_Cut , userData: QVariant(Invalid)
+23:16:20.782: (I)  7120: pdf.app             : Application::setCurrentDocWrapper()     : Notify current doc changed to: DocWrapper(null)
+23:16:22.762: (I)  7120:                     : NativeWindowUtils::eventFilter()        : IceWindow(0xc8d314, name="IceMessageBox") WinId created: 0x14065c
+23:16:22.763: (I)  7120: ice.windowgeometry  : IceWindow::Private::onScreenChanged()   : IceMessageBox(0xc8d314) initial pixel ratio: 1.25 initial screen: QScreen(0x161cd28, name="\\\\.\\DISPLAY1")
+23:16:22.763: (I)  7120:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  : Custom margins applyed for QWindow QWidgetWindow(0x17fdd430, name="IceMessageBoxWindow") QMargins(-9, -38, -9, -9) caption 29 dpr 1.25
+23:16:22.764: (I)  7120:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  : Custom margins are applyed for existing QPlatformWindow 0xf178fc0 QMargins(-9, -38, -9, -9) caption 29 dpr 1.25
+23:16:28.309: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::File_Open , userData: QVariant(QString, "E:/download/SIH Senior software edition 3ft x 6ft standy.pdf")
+23:16:28.310: (I)  7120: pdf.app             : Application::openPdfFiles               : Entering 'Open pdf files: E:/download/SIH Senior software edition 3ft x 6ft standy.pdf'
+23:16:28.310: (I)  7120: pdf.doc             : DocWrapper::DocWrapper                  :   Entering 'Create document: E:/download/SIH Senior software edition 3ft x 6ft standy.pdf'
+23:16:28.310: (I)  7120: pdf.doc             : DocWrapper::DocWrapper()                :     Trying to load document from file: "E:/download/SIH Senior software edition 3ft x 6ft standy.pdf"
+23:16:28.310: (I)  7120: pdf.doc             : DocWrapper::DocWrapper()                :     Document size: 145865
+23:16:28.311: (I)  7120: pdf.doc             : DocWrapper::DocWrapper()                :     Current progress dialog visiblity: false
+23:16:28.312: (I)  3336: pdf.doc             : DocWrapper::{ctor}::lambda()            :     Entering 'LoadDocFuture'
+23:16:28.319: (I)  3336: pdf.doc.security    : DocSecurity::DocSecurity()              :       Document contains no security parameters
+23:16:28.320: (I)  3336: pdf.doc             : checkRichContent                        :       Entering 'Check rich content'
+23:16:28.320: (I)  3336:                     : checkRichContent()                      :         Pages count: 1
+23:16:28.321: (I)  3336:                     : checkRichContent()                      :         All pages have valid RC
+23:16:28.321: (I)  3336: pdf.doc             : checkRichContent                        :       Leaving 'Check rich content'. Elapsed time: 1
+23:16:28.321: (I)  7120: pdf.doc             : DocWrapper::createViewerHostWidget()    :       Create viewer for document
+23:16:28.328: (I)  3336: pdf.doc             : DocWrapper::init                        :       Entering 'Init document: SIH Senior software edition 3ft x 6ft standy.pdf'
+23:16:28.328: (I)  3336: pdf.doc             : DocWrapper::init()                      :         Get viewable representation
+23:16:28.328: (I)  3336: pdf.doc             : DocWrapper::init()                      :         Load document into viewer
+23:16:28.329: (I)  3336: pdf.doc             : DocWrapper::init()                      :         Doc creator: "" producer: "iLovePDF"
+23:16:28.329: (I)  3336: pdf.tools.forms     : FormsToolMode::FormsToolMode()          :         Form fields count: 0
+23:16:28.330: (I)  3336: pdf.doc             : DocWrapper::init()                      :         Load annotations
+23:16:28.330: (I)  3336: pdf.doc             : DocWrapper::init()                      :         Load boombarks
+23:16:28.330: (I)  3336: pdf.doc             : DocWrapper::init()                      :         Load pages
+23:16:28.330: (I)  3336: pdf.doc.pagesmodel  : PagesModel::PagesModel()                :         Thumbnails tread pool max thread count: 1
+23:16:28.330: (I)  3336: pdf.doc             : DocWrapper::init()                      :         Misc init
+23:16:28.330: (I)  3336: pdf.doc             : DocWrapper::init                        :       Leaving 'Init document: SIH Senior software edition 3ft x 6ft standy.pdf'. Elapsed time: 2
+23:16:28.330: (I)  3336: pdf.doc             : DocWrapper::{ctor}::lambda()            :     Leaving 'LoadDocFuture'. Elapsed time: 18
+23:16:28.330: (I)  7120: pdf.doc             : DocWrapper::DocWrapper()                :     Load doc finished OK DocWrapper(SIH Senior software edition 3ft x 6ft standy.pdf)
+23:16:28.330: (I)  7120: pdf.doc             : DocWrapper::DocWrapper                  :   Leaving 'Create document: E:/download/SIH Senior software edition 3ft x 6ft standy.pdf'. Elapsed time: 20
+23:16:28.330: (I)  7120: pdf.app             : Application::registerDocWrapper()       :   Notify document created: DocWrapper(SIH Senior software edition 3ft x 6ft standy.pdf)
+23:16:28.338: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   :   Entering 'Change tool from Enums::ToolType::Null to Enums::ToolType::ManagePagesDummyTool '
+23:16:28.338: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:     sxViewer is already in SX::Viewer::tool_mode_none invoke onSxToolStateChanged(cachedSxToolState)
+23:16:28.338: (W)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():     SxToolState is null
+23:16:28.338: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   :   Leaving 'Change tool from Enums::ToolType::Null to Enums::ToolType::ManagePagesDummyTool '. Elapsed time: 0
+23:16:28.338: (I)  7120: pdf.doc             : DocWrapper::markInitialized()           :   Global init done
+23:16:28.338: (I)  7120: pdf.app             : Application::setCurrentDocWrapper()     :   Notify current doc changed to: DocWrapper(SIH Senior software edition 3ft x 6ft standy.pdf)
+23:16:28.341: (I)  7120: pdf.app             : Application::openPdfFiles               : Leaving 'Open pdf files: E:/download/SIH Senior software edition 3ft x 6ft standy.pdf'. Elapsed time: 31
+23:16:31.306: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Tools_BeginToolMode , userData: QVariant(Enums::ToolMode, "ContentMode")
+23:16:31.307: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Entering 'Change tool from Enums::ToolType::ManagePagesDummyTool to Enums::ToolType::ContentSelectTool '
+23:16:31.307: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxViewerToolMode:   invoke sxViewer->set_ToolMode( SX::Viewer::tool_mode_page_content ) because current sxToolMode is SX::Viewer::tool_mode_none
+23:16:31.308: (I)  7120: pdf.tools           : AbstractToolMode::onSxToolStateChanged():   SxTool changed: SX::Viewer::tool_mode_page_content
+23:16:31.314: (I)  7120:                     : ViewerHostWidget::Private::checkDpiChang:   Viewer host DPI changed 120
+23:16:31.322: (I)  7120: pdf.tools           : ToolModesProvider::setCurrentToolType   : Leaving 'Change tool from Enums::ToolType::ManagePagesDummyTool to Enums::ToolType::ContentSelectTool '. Elapsed time: 15
+23:16:40.874: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:4294967295, clickedPage:0, zone:None'
+23:16:40.874: (I)  7120: pdf.tools           : AbstractToolMode::ensureSxToolPage()    :   SetToolPage: 0
+23:16:40.875: (I)  7120: pdf.tools           : ContentToolMode::setObjectSel()         :   SelObj: SX::Content::rich_type_raster sel: true prim true
+23:16:40.875: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:4294967295, clickedPage:0, zone:None'. Elapsed time: 1
+23:16:46.206: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'
+23:16:46.206: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:Move'. Elapsed time: 0
+23:16:47.767: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Entering 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'
+23:16:47.767: (I)  7120: pdf.tools           : AbstractToolMode::clearSelection()      :   Clear sxToolPc selection
+23:16:47.768: (I)  7120: pdf.tools           : ContentToolMode::onLeftMouseDown        : Leaving 'LeftMouseDown: ContentSelectTool, SX::Viewer::tool_mode_page_content, SX::Viewer::tool_pc_mode_select, toolPage:0, zone:None'. Elapsed time: 0
+23:16:56.485: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::NavBar_ShowTab , userData: QVariant(Enums::NavBarTab, "Bookmarks")
+23:16:58.110: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::NavBar_ShowTab , userData: QVariant(Enums::NavBarTab, "AnnotsList")
+23:17:00.003: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::NavBar_ShowTab , userData: QVariant(Enums::NavBarTab, "TabsClosed")
+23:17:01.136: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::NavBar_ShowTab , userData: QVariant(Enums::NavBarTab, "AnnotsList")
+23:17:02.765: (I)  7120: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::Viewer_LayoutMode , userData: QVariant(Enums::ViewerLayoutMode, "FacingContinuous")
+23:27:39.956: (I)  7120: pdf.app             : Application::setCurrentDocWrapper()     : Notify current doc changed to: DocWrapper(null)
+23:27:40.003: (I)  7120:                     : main()                                  : App event loop finished, flush metrics
+23:27:40.003: (I)  7120:                     : main()                                  : MetricSender::WaitForSendAll() finished, quit app
+23:27:40.065: (I)  7120:                     : MinHookHelper::removeHook()             : MH_RemoveHook DONE hook
+23:27:40.097: (I)  7120:                     : MinHookHelper::removeHook()             : MH_RemoveHook DONE hook
+23:27:40.128: (I)  7120:                     : MinHookHelper::removeHook()             : MH_RemoveHook DONE hook
+23:27:40.159: (I)  7120:                     : MinHookHelper::removeHook()             : MH_RemoveHook DONE hook
+23:27:40.190: (I)  7120: sx                  : SX::unload()                            : Sdk library free OK
+23:27:40.206: (I)  7120: ice.application     : IceApplication::~IceApplication()       : App is finished normally.
+23:27:40.253: (I)  7120:                     : MinHookHelper::~MinHookHelper()         : MH_Uninitialize OK

@@ -1,0 +1,750 @@
+2022-10-11 10:02:17.797570 +0530 (0x00005c04) [info] [CrashDump] Starting handler at C:/Program Files/4KDownload/4kvideodownloader
+2022-10-11 10:02:17.813193 +0530 (0x00005c04) [info] [app_Gui] [BaseTranslator] Using locale en_US
+2022-10-11 10:02:17.813193 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000001] Start http downloader https://dl.4kdownload.com/app/settings/4kvideodownloader.crash.json
+2022-10-11 10:02:17.813193 +0530 (0x00006008) [info] [http] [HttpDownloaderImpl_0000000000000002] Start http downloader https://dl.4kdownload.com/app/advertisement/videodownloader.xml
+2022-10-11 10:02:17.813193 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000003] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Application&ea=Run&el=Less%20than%20100&ev=11&z=27550
+2022-10-11 10:02:17.813193 +0530 (0x00005c04) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.21.7.5040, appCast=https://dl.4kdownload.com/app/appcast/videodownloader.xml
+2022-10-11 10:02:17.813193 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000004] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Application&ea=Platform&el=windows-64-10.0.22621&cprop=%7B%22platform%22%3A%22windows-64%22%2C%22platform_version%22%3A%2210.0.22621%22%7D&z=10967
+2022-10-11 10:02:17.813193 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000005] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=License&ea=State&el=free&cprop=%7B%22license%22%3A%22free%22%7D&z=10783
+2022-10-11 10:02:17.813193 +0530 (0x00005c04) [warning] Qt WebEngine resources not found at C:/Program Files/4KDownload/4kvideodownloader/resources. Trying parent directory... (:0, )
+2022-10-11 10:02:17.813193 +0530 (0x00005c04) [warning] Installed Qt WebEngine locales directory not found at location C:/Program Files/4KDownload/4kvideodownloader/translations\qtwebengine_locales. Trying application directory... (:0, )
+2022-10-11 10:02:18.094407 +0530 (0x00001f20) [info] Enter WorkerGraphManager::checkingThread
+2022-10-11 10:02:18.094407 +0530 (0x000048c0) [info] Enter WorkerGraphManager::statisticsLogThread
+2022-10-11 10:02:18.094407 +0530 (0x00005c04) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Set max active count 1 -> 2
+2022-10-11 10:02:18.094407 +0530 (0x00005c04) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000292A19F1130] Set max active count 1 -> 2
+2022-10-11 10:02:18.094407 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000006] Start http downloader https://dl.4kdownload.com/app/news/videodownloader.json
+2022-10-11 10:02:18.094407 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Initial; force: no; size: 0
+2022-10-11 10:02:18.094407 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Pending; force: no; size: 0
+2022-10-11 10:02:18.094407 +0530 (0x000013f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000292A19F1130] Checking queue: state: Initial; force: no; size: 0
+2022-10-11 10:02:18.094407 +0530 (0x000013f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000292A19F1130] Checking queue: state: Pending; force: no; size: 0
+2022-10-11 10:02:18.094407 +0530 (0x00005c04) [info] [http] [HttpDownloaderImpl_0000000000000007] Start http downloader http://sa.openmedia.co:8018/getinfo
+2022-10-11 10:02:18.094407 +0530 (0x000053e0) [info] EventDispatcher is started
+2022-10-11 10:02:18.110029 +0530 (0x00005c04) [info] Creating new io context pool '' with 4 thread(s)
+2022-10-11 10:02:18.110029 +0530 (0x00003bfc) [info] AsioContext::IoContext::threadFunc started
+2022-10-11 10:02:18.110029 +0530 (0x000015f8) [info] AsioContext::IoContext::threadFunc started
+2022-10-11 10:02:18.110029 +0530 (0x0000517c) [info] AsioContext::IoContext::threadFunc started
+2022-10-11 10:02:18.110029 +0530 (0x00002d54) [info] AsioContext::IoContext::threadFunc started
+2022-10-11 10:02:18.125631 +0530 (0x00002d54) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:02:18.125631 +0530 (0x00002d54) [info] Check subscription after 300s
+2022-10-11 10:02:18.368478 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000008] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Subscription&ea=Load&ev=0&z=2747
+2022-10-11 10:02:18.374464 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000009] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Application&ea=Resolution&el=1920x1080&z=29267
+2022-10-11 10:02:18.375460 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_000000000000000A] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Application&ea=LogicalDPI&el=120&z=8246
+2022-10-11 10:02:18.559132 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000001] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:18.563150 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000001] close
+2022-10-11 10:02:18.564114 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000001] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:18.595851 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:02:18.660594 +0530 (0x00006008) [debug] [http] [HttpDownloaderImpl_0000000000000002] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:18.661411 +0530 (0x00006008) [debug] [http] [HttpDownloaderImpl_0000000000000002] close
+2022-10-11 10:02:18.661411 +0530 (0x00006008) [debug] [http] [HttpDownloaderImpl_0000000000000002] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:18.797047 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000006] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:18.797990 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000006] close
+2022-10-11 10:02:18.797990 +0530 (0x00005c04) [info] [Feedback] [NewsCenter] downloaded
+2022-10-11 10:02:18.797990 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000006] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:18.861604 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000007] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:18.861604 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000004] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:18.861604 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000003] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:18.862552 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000005] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:18.862552 +0530 (0x00004d10) [info] User external ip info: {"ip":"49.43.41.89"}
+2022-10-11 10:02:18.862552 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000007] close
+2022-10-11 10:02:18.863671 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000004] close
+2022-10-11 10:02:18.863671 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000003] close
+2022-10-11 10:02:18.864734 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000005] close
+2022-10-11 10:02:18.864734 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000007] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:18.865708 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000004] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:18.865708 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000003] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:18.865708 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000005] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:19.059735 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000009] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:19.059735 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000A] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:19.060740 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000008] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:19.060740 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000009] close
+2022-10-11 10:02:19.060740 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000A] close
+2022-10-11 10:02:19.061804 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000008] close
+2022-10-11 10:02:19.061804 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000009] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:19.062782 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000A] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:19.062782 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000008] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:21.855262 +0530 (0x00005c04) [info] Started url parsing: https://www.youtube.com/watch?v=MPvr-LmaZmA
+2022-10-11 10:02:21.855262 +0530 (0x00005fc8) [info] [downloadermodel] [QueueHandlingThread_00000292AA2A7740] started
+2022-10-11 10:02:21.855262 +0530 (0x00004b38) [info] [downloadermodel] [NotificationHandlingThread_00000292AA2A7740] started
+2022-10-11 10:02:21.870512 +0530 (0x00005c04) [info] App Graph: preparing request for url: parsers/youtube
+2022-10-11 10:02:21.870512 +0530 (0x00005c04) [info] App Graph: preparing request for graph
+2022-10-11 10:02:21.870512 +0530 (0x00005fc8) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000292AA2A7740] Checking queue: state: Initial; force: no; size: 1
+2022-10-11 10:02:21.870512 +0530 (0x00005fc8) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000292AA2A7740] Creating queue element:1
+2022-10-11 10:02:21.870512 +0530 (0x00005fc8) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000292AA2A7740] Queue element:1 was created
+2022-10-11 10:02:21.870512 +0530 (0x00005fc8) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000292AA2A7740] Checking queue: state: Pending; force: no; size: 1
+2022-10-11 10:02:21.870512 +0530 (0x000053e0) [info] Creating graph: YoutubeParserGraph
+2022-10-11 10:02:21.870512 +0530 (0x00002d54) [info] YoutubeSingleVideoUrlAnalyzerNode url: https://www.youtube.com/watch?v=MPvr-LmaZmA
+2022-10-11 10:02:21.870512 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_000000000000000B] Start http downloader https://dl.4kdownload.com/app/settings/4kvideodownloader.settings.json
+2022-10-11 10:02:22.558770 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000B] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:22.558770 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000B] close
+2022-10-11 10:02:22.558770 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000B] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:22.558770 +0530 (0x00002d54) [info] [http] [HttpDownloaderImpl_000000000000000C] Start http downloader https://www.youtube.com/watch?v=MPvr-LmaZmA&gl=US&hl=en&has_verified=1&bpctr=9999999999
+2022-10-11 10:02:23.167880 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000C] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:24.089679 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000C] close
+2022-10-11 10:02:24.089679 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000C] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:24.089679 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_000000000000000D] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Debug&ea=PlayerUrl&el=https%3A%2F%2Fwww.youtube.com%2Fs%2Fplayer%2F7a062b77%2Fplayer_ias.vflset%2Fen_US%2Fbase.js&z=15793
+2022-10-11 10:02:24.120552 +0530 (0x000015f8) [warning] Cannot parse json. Error: [json.exception.out_of_range.403] key 'INITIAL_ENDPOINT' not found
+2022-10-11 10:02:24.120552 +0530 (0x000015f8) [warning] Cannot parse json. Error: [json.exception.parse_error.101] parse error at 22: syntax error - invalid literal; last read: '"CSI_SERVICE_NAME": ''
+2022-10-11 10:02:24.120552 +0530 (0x000015f8) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:02:24.183052 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_000000000000000E] Start http downloader https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
+2022-10-11 10:02:24.808295 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000D] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:24.808295 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000D] close
+2022-10-11 10:02:24.808295 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000D] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:24.886303 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000E] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:24.917496 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000E] close
+2022-10-11 10:02:24.917496 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000E] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:24.917496 +0530 (0x00002d54) [info] [http] [HttpDownloaderImpl_000000000000000F] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/sddefault.jpg
+2022-10-11 10:02:25.307793 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000F] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:27.495152 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000F] close
+2022-10-11 10:02:27.495152 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000000F] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:27.495152 +0530 (0x000015f8) [debug] Json exception: [json.exception.out_of_range.403] key 'dashManifestUrl' not found
+2022-10-11 10:02:27.510414 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_0000000000000010] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/maxresdefault.jpg
+2022-10-11 10:02:27.808660 +0530 (0x00005c04) [info] [SoftwareUpdate] [Manager] checking
+2022-10-11 10:02:27.808660 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000011] Start http downloader https://dl.4kdownload.com/app/appcast/videodownloader.xml
+2022-10-11 10:02:27.983005 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000010] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:28.889385 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000010] close
+2022-10-11 10:02:28.889385 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000010] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:28.889385 +0530 (0x00002d54) [debug] Json exception: [json.exception.out_of_range.403] key 'dashManifestUrl' not found
+2022-10-11 10:02:28.889385 +0530 (0x00002d54) [info] [http] [HttpDownloaderImpl_0000000000000012] Start http downloader https://www.youtube.com/s/player/7a062b77/player_ias.vflset/en_US/base.js
+2022-10-11 10:02:29.358154 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000011] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:29.639235 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000012] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:29.686112 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000011] close
+2022-10-11 10:02:29.686112 +0530 (0x00005c04) [info] [SoftwareUpdate] [Manager] parsing
+2022-10-11 10:02:29.686112 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000011] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:29.686112 +0530 (0x00005c04) [info] [SoftwareUpdate] [Manager] no update available
+2022-10-11 10:02:39.687032 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000012] close
+2022-10-11 10:02:39.687032 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000012] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:39.702362 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_0000000000000013] Start http downloader https://dl.4kdownload.com/app/script/youtube-5.txt
+2022-10-11 10:02:40.374424 +0530 (0x000015f8) [debug] [http] [HttpDownloaderImpl_0000000000000013] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:40.374424 +0530 (0x000015f8) [debug] [http] [HttpDownloaderImpl_0000000000000013] close
+2022-10-11 10:02:40.374424 +0530 (0x000015f8) [debug] [http] [HttpDownloaderImpl_0000000000000013] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:42.028304 +0530 (0x00005c04) [info] JSExecutionTracker: JS return is empty
+2022-10-11 10:02:42.088978 +0530 (0x00002d54) [debug] Json exception: [json.exception.out_of_range.403] key 'microformat' not found
+2022-10-11 10:02:42.088978 +0530 (0x00002d54) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:02:42.088978 +0530 (0x00002d54) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:02:42.088978 +0530 (0x00002d54) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:02:42.088978 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_0000000000000014] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/sddefault.jpg
+2022-10-11 10:02:42.088978 +0530 (0x0000517c) [debug] Json exception: [json.exception.out_of_range.403] key 'simpleText' not found
+2022-10-11 10:02:42.088978 +0530 (0x0000517c) [info] [http] [HttpDownloaderImpl_0000000000000015] Start http downloader https://www.youtube.com/api/timedtext?v=MPvr-LmaZmA&caps=asr&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1665487944&sparams=ip,ipbits,expire,v,caps,xoaf&signature=E987C447732261977C08EAD4E64E337FEE47E751.10725DEE679F99D977929DFC6F74BBD7CF9DD72D&key=yt8&lang=en-IN&fmt=srv3
+2022-10-11 10:02:42.808913 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000014] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:45.001831 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000015] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:45.001831 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000015] close
+2022-10-11 10:02:45.001831 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000015] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:45.001831 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000014] close
+2022-10-11 10:02:45.001831 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_0000000000000016] Start http downloader https://www.youtube.com/api/timedtext?v=MPvr-LmaZmA&caps=asr&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1665487942&sparams=ip,ipbits,expire,v,caps,xoaf&signature=D7C00CA5A0EF6FB0181027E03443031593064CCB.1D5EA514FFA66028666C1374EFF962026EB5B3ED&key=yt8&lang=en-IN
+2022-10-11 10:02:45.001831 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000014] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:46.642787 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000016] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:46.642787 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000016] close
+2022-10-11 10:02:46.642787 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000016] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:46.642787 +0530 (0x00001f20) [debug] initializeEntityGraphStructure: graph structure is disabled
+2022-10-11 10:02:46.642787 +0530 (0x00001f20) [debug] processEntityGraph: can't form graph structure for YoutubeParserGraphWrapper (2828971570184)
+2022-10-11 10:02:46.642787 +0530 (0x00001f20) [info] Finished url parsing: https://www.youtube.com/watch?v=MPvr-LmaZmA
+2022-10-11 10:02:46.642787 +0530 (0x00004b38) [debug] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000292AA2A7740] notify element:1 state:Finished
+2022-10-11 10:02:46.642787 +0530 (0x00005fc8) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000292AA2A7740] Checking queue: state: Initial; force: no; size: 0
+2022-10-11 10:02:46.642787 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000017] Start http downloader http://vdr.openmedia.co:8018/vdr?_os_version=10.0.22621&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&_os_name=windows&av=4.21.7.5040&an=4K%20Video%20Downloader&_platform=windows-64&ev=parsed&_ChannelUrl=http%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCldyi11QYNXYXiLjVbyw5dA&_Username=CodeHelp%20-%20by%20Babbar&u=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DMPvr-LmaZmA&ut=regular
+2022-10-11 10:02:46.642787 +0530 (0x00005fc8) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000292AA2A7740] Checking queue: state: Pending; force: no; size: 0
+2022-10-11 10:02:46.642787 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000018] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Download&ea=Parse&el=succeeded%20%7C%20clip&z=18983
+2022-10-11 10:02:46.642787 +0530 (0x00005c04) [info] Started file redownloading: C:\Users\yashw\Videos\4K Video Downloader\Lecture 20 Solving LeetCode CodeStudio Questions [Arrays].mp4
+2022-10-11 10:02:46.658011 +0530 (0x0000156c) [info] [downloadermodel] [QueueHandlingThread_00000292AA2A7180] started
+2022-10-11 10:02:46.658011 +0530 (0x00002e8c) [info] [downloadermodel] [NotificationHandlingThread_00000292AA2A7180] started
+2022-10-11 10:02:46.658011 +0530 (0x00005c04) [info] App Graph: preparing request for graph
+2022-10-11 10:02:46.658011 +0530 (0x0000156c) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000292AA2A7180] Checking queue: state: Initial; force: no; size: 1
+2022-10-11 10:02:46.658011 +0530 (0x0000156c) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000292AA2A7180] Creating queue element:1
+2022-10-11 10:02:46.658011 +0530 (0x0000156c) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000292AA2A7180] Queue element:1 was created
+2022-10-11 10:02:46.658011 +0530 (0x00005c04) [info] Creating new io context pool 'graph_stop' with 4 thread(s)
+2022-10-11 10:02:46.658011 +0530 (0x00005fc8) [error] [downloadermodel] [SimultaneouslyRunningControllersQueue[smartparse]_00000292AA2A7740] cancel: element:1 is not found
+2022-10-11 10:02:46.658011 +0530 (0x0000156c) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000292AA2A7180] Checking queue: state: Pending; force: no; size: 1
+2022-10-11 10:02:46.658011 +0530 (0x00003ee0) [info] AsioContext::IoContext::threadFunc started
+2022-10-11 10:02:46.658011 +0530 (0x00004c34) [info] [downloader] [QueueHandlingThread_00000292AFFF0E20] started
+2022-10-11 10:02:46.658011 +0530 (0x00001c74) [info] AsioContext::IoContext::threadFunc started
+2022-10-11 10:02:46.658011 +0530 (0x0000621c) [info] [downloader] [NotificationHandlingThread_00000292AFFF0E20] started
+2022-10-11 10:02:46.658011 +0530 (0x00005e48) [info] AsioContext::IoContext::threadFunc started
+2022-10-11 10:02:46.658011 +0530 (0x00001cc8) [info] AsioContext::IoContext::threadFunc started
+2022-10-11 10:02:46.658011 +0530 (0x000053e0) [info] Creating graph: DownloaderGraphParent
+2022-10-11 10:02:46.658011 +0530 (0x00003bfc) [info] [download] [DownloaderNode_00000292AA37E310] Start downloading <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA>
+2022-10-11 10:02:46.658011 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Initial; force: no; size: 1
+2022-10-11 10:02:46.658011 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Creating queue element:1
+2022-10-11 10:02:46.658011 +0530 (0x00001728) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484344&ei=2PFEY4ijK8eM4-EP_pq4uA4&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-AJx0FlFW4Jcywc5Zm_fMLYzdK74wo-YRna865mSwQuQS&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgJ1AJ9Oyt6u7J0lVBKyqAmyNHRE8U7PwYe3M5SXzn6NgCIAdvhHpqMmJzKttyMO9ooiFM2DytxGaGzoNbA5Z52Xeq&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhANnvJvkMT41-VOTROdShs6mpTEThw1S7LwhJQp0sVEATAiEAkDW7MwV78ZC0brNNarO3A1vIrCcKD9G6WqrrteIt8YE%3D
+2022-10-11 10:02:46.658011 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Queue element:1 was created
+2022-10-11 10:02:46.658011 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Pending; force: no; size: 1
+2022-10-11 10:02:47.517338 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:02:47.517338 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:02:47.517338 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 94928941-97026093(total: 114694688, valid) content size: 2097153>
+2022-10-11 10:02:47.517338 +0530 (0x00004328) [debug] [downloader] [HttpDownloaderQueue_00000292A19ED950] notify element:1 state:Active
+2022-10-11 10:02:47.517338 +0530 (0x00004328) [info] Media Downloader: stateStart
+2022-10-11 10:02:48.095175 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000019] Start http downloader https://dl.4kdownload.com/app/messages/videodownloader.xml
+2022-10-11 10:02:48.110821 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000018] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:48.110821 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000017] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:48.110821 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000018] close
+2022-10-11 10:02:48.110821 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000017] close
+2022-10-11 10:02:48.110821 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000018] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:48.110821 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000017] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:49.079358 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000019] handleOpen system:0:The operation completed successfully
+2022-10-11 10:02:49.079358 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000019] close
+2022-10-11 10:02:49.079358 +0530 (0x00005c04) [info] [Feedback] [MessageCenter] downloaded
+2022-10-11 10:02:49.079358 +0530 (0x00005c04) [info] [Feedback] [MessageCenter] extracting messages
+2022-10-11 10:02:49.079358 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000019] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:02:49.079358 +0530 (0x00005c04) [info] [Feedback] [MessageCenter] extracted 0 messages
+2022-10-11 10:03:01.909544 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Finish' asio.misc:2:End of file
+2022-10-11 10:03:01.909544 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <stream written bytes: 2097153, downloaded bytes: 0, errors count: 0, eof: true, canceled: false>
+2022-10-11 10:03:01.909544 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <start position: 97026094 end position: 99123246 total size: 114694688 last read: false>
+2022-10-11 10:03:01.909544 +0530 (0x00004d10) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484344&ei=2PFEY4ijK8eM4-EP_pq4uA4&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-AJx0FlFW4Jcywc5Zm_fMLYzdK74wo-YRna865mSwQuQS&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgJ1AJ9Oyt6u7J0lVBKyqAmyNHRE8U7PwYe3M5SXzn6NgCIAdvhHpqMmJzKttyMO9ooiFM2DytxGaGzoNbA5Z52Xeq&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhANnvJvkMT41-VOTROdShs6mpTEThw1S7LwhJQp0sVEATAiEAkDW7MwV78ZC0brNNarO3A1vIrCcKD9G6WqrrteIt8YE%3D
+2022-10-11 10:03:01.909544 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:03:01.909544 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:03:02.300107 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:03:02.300107 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:03:02.300107 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 97026094-99123246(total: 114694688, valid) content size: 2097153>
+2022-10-11 10:03:12.874550 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Finish' asio.misc:2:End of file
+2022-10-11 10:03:12.874550 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <stream written bytes: 4194306, downloaded bytes: 2097153, errors count: 0, eof: true, canceled: false>
+2022-10-11 10:03:12.874550 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <start position: 99123247 end position: 101220399 total size: 114694688 last read: false>
+2022-10-11 10:03:12.874550 +0530 (0x00004d10) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484344&ei=2PFEY4ijK8eM4-EP_pq4uA4&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-AJx0FlFW4Jcywc5Zm_fMLYzdK74wo-YRna865mSwQuQS&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgJ1AJ9Oyt6u7J0lVBKyqAmyNHRE8U7PwYe3M5SXzn6NgCIAdvhHpqMmJzKttyMO9ooiFM2DytxGaGzoNbA5Z52Xeq&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhANnvJvkMT41-VOTROdShs6mpTEThw1S7LwhJQp0sVEATAiEAkDW7MwV78ZC0brNNarO3A1vIrCcKD9G6WqrrteIt8YE%3D
+2022-10-11 10:03:12.875544 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:03:12.876542 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:03:17.563343 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:03:17.564339 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:03:17.564339 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 99123247-101220399(total: 114694688, valid) content size: 2097153>
+2022-10-11 10:03:17.912769 +0530 (0x00003bfc) [info] DownloadTrackerWorkerNode : restarting <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA> : avg speed = 261970
+2022-10-11 10:03:17.913770 +0530 (0x00003bfc) [info] YoutubeSingleVideoUrlAnalyzerNode url: https://www.youtube.com/watch?v=MPvr-LmaZmA
+2022-10-11 10:03:17.915763 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_000000000000001A] Start http downloader https://www.youtube.com/watch?v=MPvr-LmaZmA&gl=US&hl=en&has_verified=1&bpctr=9999999999
+2022-10-11 10:03:20.031951 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001A] handleOpen system:0:The operation completed successfully
+2022-10-11 10:03:20.912617 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:03:27.568185 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001A] close
+2022-10-11 10:03:27.568185 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001A] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:03:27.702814 +0530 (0x00003bfc) [warning] Cannot parse json. Error: [json.exception.out_of_range.403] key 'INITIAL_ENDPOINT' not found
+2022-10-11 10:03:27.702814 +0530 (0x00003bfc) [warning] Cannot parse json. Error: [json.exception.parse_error.101] parse error at 22: syntax error - invalid literal; last read: '"CSI_SERVICE_NAME": ''
+2022-10-11 10:03:27.702814 +0530 (0x00003bfc) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:03:28.039901 +0530 (0x00003bfc) [info] [http] [HttpDownloaderImpl_000000000000001B] Start http downloader https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
+2022-10-11 10:03:30.704624 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001B] handleOpen system:0:The operation completed successfully
+2022-10-11 10:03:32.046779 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001B] close
+2022-10-11 10:03:32.046779 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001B] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:03:32.052833 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_000000000000001C] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/sddefault.jpg
+2022-10-11 10:03:32.883768 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001C] handleOpen system:0:The operation completed successfully
+2022-10-11 10:03:33.633671 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001C] close
+2022-10-11 10:03:33.633671 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001C] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:03:33.633671 +0530 (0x00003bfc) [debug] Json exception: [json.exception.out_of_range.403] key 'dashManifestUrl' not found
+2022-10-11 10:03:33.664803 +0530 (0x00003bfc) [info] [http] [HttpDownloaderImpl_000000000000001D] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/maxresdefault.jpg
+2022-10-11 10:03:34.664388 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001D] handleOpen system:0:The operation completed successfully
+2022-10-11 10:03:40.261015 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001D] close
+2022-10-11 10:03:40.262034 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001D] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:03:40.270511 +0530 (0x00003bfc) [debug] Json exception: [json.exception.out_of_range.403] key 'dashManifestUrl' not found
+2022-10-11 10:03:40.326740 +0530 (0x00002d54) [debug] Json exception: [json.exception.out_of_range.403] key 'microformat' not found
+2022-10-11 10:03:40.326740 +0530 (0x00002d54) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:03:40.326740 +0530 (0x00002d54) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:03:40.326740 +0530 (0x00002d54) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:03:40.327982 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_000000000000001E] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/sddefault.jpg
+2022-10-11 10:03:40.328984 +0530 (0x00003bfc) [debug] Json exception: [json.exception.out_of_range.403] key 'simpleText' not found
+2022-10-11 10:03:40.328984 +0530 (0x00003bfc) [info] [http] [HttpDownloaderImpl_000000000000001F] Start http downloader https://www.youtube.com/api/timedtext?v=MPvr-LmaZmA&caps=asr&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1665488010&sparams=ip,ipbits,expire,v,caps,xoaf&signature=BD6C3024E49E7A79AF9167E63741CF6753EA91F3.582420D4E2E23C8DA28085CB18D83A335F29FA6F&key=yt8&lang=en-IN&fmt=srv3
+2022-10-11 10:03:41.082679 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001F] handleOpen system:0:The operation completed successfully
+2022-10-11 10:03:41.083689 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001F] close
+2022-10-11 10:03:41.084676 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001F] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:03:41.084676 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_0000000000000020] Start http downloader https://www.youtube.com/api/timedtext?v=MPvr-LmaZmA&caps=asr&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1665487999&sparams=ip,ipbits,expire,v,caps,xoaf&signature=A3DE653D3913F2F9CF9C4AE3B582083344E6101C.18A1CB8D1BF66F84DEBEFC45DA64F204DFF25015&key=yt8&lang=en-IN
+2022-10-11 10:03:42.914301 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001E] handleOpen system:0:The operation completed successfully
+2022-10-11 10:03:42.922974 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000020] handleOpen system:0:The operation completed successfully
+2022-10-11 10:03:42.923853 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000020] close
+2022-10-11 10:03:42.923853 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000020] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:03:43.668481 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001E] close
+2022-10-11 10:03:43.668481 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000001E] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:03:43.670980 +0530 (0x000015f8) [info] [download] [DownloaderNode_00000292AA37E310] Start downloading <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA>
+2022-10-11 10:03:43.670980 +0530 (0x0000517c) [debug] media_downloader::cancel
+2022-10-11 10:03:43.670980 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:1 is canceled and was in 'Active' state
+2022-10-11 10:03:43.670980 +0530 (0x00001728) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] cancel with downloader
+2022-10-11 10:03:43.670980 +0530 (0x00001728) [info] [http] [HttpDownloaderImpl_00000292AA37E310] cancel
+2022-10-11 10:03:43.670980 +0530 (0x00001728) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:03:43.671979 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:03:43.671979 +0530 (0x00004328) [debug] [downloader] [HttpDownloaderQueue_00000292A19ED950] notify element:1 state:Canceled
+2022-10-11 10:03:43.671979 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::cancel finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:03:43.671979 +0530 (0x00004328) [info] Media Downloader: stateCancel
+2022-10-11 10:03:43.671979 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::shutdown finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:03:43.671979 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:03:43.671979 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Initial; force: no; size: 0
+2022-10-11 10:03:43.671979 +0530 (0x00004d10) [warning] [http] [HttpDownloaderImpl_00000292AA37E310] Try to call notification function after finish
+2022-10-11 10:03:43.671979 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:03:43.671979 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Pending; force: no; size: 0
+2022-10-11 10:03:43.671979 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::cancel finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:03:43.671979 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::shutdown finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:03:43.671979 +0530 (0x0000517c) [debug] media_downloader::cancel
+2022-10-11 10:03:43.671979 +0530 (0x00001728) [error] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:1 is not found
+2022-10-11 10:03:43.671979 +0530 (0x00001728) [error] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:1 is not found
+2022-10-11 10:03:43.672976 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Initial; force: no; size: 1
+2022-10-11 10:03:43.672976 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Creating queue element:2
+2022-10-11 10:03:43.672976 +0530 (0x00002d54) [info] DownloadTrackerWorkerNode : restarted <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA>
+2022-10-11 10:03:43.672976 +0530 (0x00001728) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484410&ei=GvJEY4PKGPCMg8UP066ToAs&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-ABynscE3jsdeLA26opCaS9iU13PQCop9p0cCblXbdRDg&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAO6eJGzYLnKkhLUrZTmOzX-yyTFVlMZ-z4z5caac3eneAiEAoA21gjAmuZ7DmtuScQ503rr_AyANYCOFF4dHszp-dLc%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRgIhAIAf-_Wg9JAPL16vnCJL5gsaWqEaQ88NGrbLJjClBlVxAiEAupk4F7-f752GJ0KsHhCSL1fyfZM58kwtqQ0tY8x6I2Y%3D
+2022-10-11 10:03:43.673975 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Queue element:2 was created
+2022-10-11 10:03:43.673975 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Pending; force: no; size: 1
+2022-10-11 10:03:44.502008 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:03:44.502008 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:03:44.502008 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 99713071-101810223(total: 114694688, valid) content size: 2097153>
+2022-10-11 10:03:44.502008 +0530 (0x00004328) [debug] [downloader] [HttpDownloaderQueue_00000292A19ED950] notify element:2 state:Active
+2022-10-11 10:03:44.502008 +0530 (0x00004328) [info] Media Downloader: stateStart
+2022-10-11 10:04:01.636304 +0530 (0x0000517c) [info] DownloadTrackerWorkerNode : restarting <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA> : avg speed = 0
+2022-10-11 10:04:01.638320 +0530 (0x0000517c) [info] YoutubeSingleVideoUrlAnalyzerNode url: https://www.youtube.com/watch?v=MPvr-LmaZmA
+2022-10-11 10:04:01.641312 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_0000000000000021] Start http downloader https://www.youtube.com/watch?v=MPvr-LmaZmA&gl=US&hl=en&has_verified=1&bpctr=9999999999
+2022-10-11 10:04:07.247011 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000021] handleOpen system:0:The operation completed successfully
+2022-10-11 10:04:20.641015 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000021] close
+2022-10-11 10:04:20.641015 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000021] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:04:20.672074 +0530 (0x00003bfc) [warning] Cannot parse json. Error: [json.exception.out_of_range.403] key 'INITIAL_ENDPOINT' not found
+2022-10-11 10:04:20.672074 +0530 (0x00003bfc) [warning] Cannot parse json. Error: [json.exception.parse_error.101] parse error at 22: syntax error - invalid literal; last read: '"CSI_SERVICE_NAME": ''
+2022-10-11 10:04:20.672074 +0530 (0x00003bfc) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:04:20.769202 +0530 (0x00003bfc) [info] [http] [HttpDownloaderImpl_0000000000000022] Start http downloader https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
+2022-10-11 10:04:22.093965 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:04:22.490922 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000022] handleOpen system:0:The operation completed successfully
+2022-10-11 10:04:22.560570 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000022] close
+2022-10-11 10:04:22.560570 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000022] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:04:22.566544 +0530 (0x0000517c) [info] [http] [HttpDownloaderImpl_0000000000000023] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/sddefault.jpg
+2022-10-11 10:04:23.496480 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000023] handleOpen system:0:The operation completed successfully
+2022-10-11 10:04:23.873092 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000023] close
+2022-10-11 10:04:23.873092 +0530 (0x000015f8) [debug] Json exception: [json.exception.out_of_range.403] key 'dashManifestUrl' not found
+2022-10-11 10:04:23.887156 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000023] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:04:23.904117 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_0000000000000024] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/maxresdefault.jpg
+2022-10-11 10:04:24.919871 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000024] handleOpen system:0:The operation completed successfully
+2022-10-11 10:04:29.124082 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000024] close
+2022-10-11 10:04:29.124082 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000024] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:04:29.139442 +0530 (0x00002d54) [debug] Json exception: [json.exception.out_of_range.403] key 'dashManifestUrl' not found
+2022-10-11 10:04:29.186289 +0530 (0x00003bfc) [debug] Json exception: [json.exception.out_of_range.403] key 'microformat' not found
+2022-10-11 10:04:29.186289 +0530 (0x00003bfc) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:04:29.186289 +0530 (0x00003bfc) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:04:29.186289 +0530 (0x00003bfc) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:04:29.186289 +0530 (0x000015f8) [info] [http] [HttpDownloaderImpl_0000000000000025] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/sddefault.jpg
+2022-10-11 10:04:29.186289 +0530 (0x0000517c) [debug] Json exception: [json.exception.out_of_range.403] key 'simpleText' not found
+2022-10-11 10:04:29.186289 +0530 (0x0000517c) [info] [http] [HttpDownloaderImpl_0000000000000026] Start http downloader https://www.youtube.com/api/timedtext?v=MPvr-LmaZmA&caps=asr&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1665488062&sparams=ip,ipbits,expire,v,caps,xoaf&signature=820C37575F5D391037A7B026AEEBE129E5324274.A874789E948718D23FF1A3FC58DBB755D0A3DA54&key=yt8&lang=en-IN&fmt=srv3
+2022-10-11 10:04:31.060977 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000026] handleOpen system:0:The operation completed successfully
+2022-10-11 10:04:31.060977 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000026] close
+2022-10-11 10:04:31.060977 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000026] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:04:31.060977 +0530 (0x0000517c) [info] [http] [HttpDownloaderImpl_0000000000000027] Start http downloader https://www.youtube.com/api/timedtext?v=MPvr-LmaZmA&caps=asr&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1665488047&sparams=ip,ipbits,expire,v,caps,xoaf&signature=9205BC66C4F50BA76963F6C1F5DC781FFEC233B6.C9D32E6B29C76F18F5B2ACCA7D60309203027C48&key=yt8&lang=en-IN
+2022-10-11 10:04:31.920052 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000027] handleOpen system:0:The operation completed successfully
+2022-10-11 10:04:31.920052 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000027] close
+2022-10-11 10:04:31.920052 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000027] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:04:32.513665 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000025] handleOpen system:0:The operation completed successfully
+2022-10-11 10:04:33.232580 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000025] close
+2022-10-11 10:04:33.232580 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000025] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:04:33.232580 +0530 (0x00002d54) [info] [download] [DownloaderNode_00000292AA37E310] Start downloading <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA>
+2022-10-11 10:04:33.232580 +0530 (0x0000517c) [debug] media_downloader::cancel
+2022-10-11 10:04:33.232580 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:2 is canceled and was in 'Active' state
+2022-10-11 10:04:33.232580 +0530 (0x00001728) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] cancel with downloader
+2022-10-11 10:04:33.232580 +0530 (0x00001728) [info] [http] [HttpDownloaderImpl_00000292AA37E310] cancel
+2022-10-11 10:04:33.232580 +0530 (0x00001728) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:04:33.232580 +0530 (0x00004d10) [warning] [http] [ReadCoro_00000292AA37E310] coro finished with ec = system:995, The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:04:33.232580 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:04:33.232580 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::cancel finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:04:33.232580 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::shutdown finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:04:33.232580 +0530 (0x00004328) [debug] [downloader] [HttpDownloaderQueue_00000292A19ED950] notify element:2 state:Canceled
+2022-10-11 10:04:33.232580 +0530 (0x00004328) [info] Media Downloader: stateCancel
+2022-10-11 10:04:33.232580 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:04:33.232580 +0530 (0x00004d10) [warning] [http] [HttpDownloaderImpl_00000292AA37E310] Try to call notification function after finish
+2022-10-11 10:04:33.232580 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Initial; force: no; size: 0
+2022-10-11 10:04:33.232580 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:04:33.232580 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Pending; force: no; size: 0
+2022-10-11 10:04:33.232580 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::cancel finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:04:33.247842 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::shutdown finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:04:33.247842 +0530 (0x0000517c) [debug] media_downloader::cancel
+2022-10-11 10:04:33.247842 +0530 (0x00001728) [error] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:2 is not found
+2022-10-11 10:04:33.247842 +0530 (0x00001728) [error] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:2 is not found
+2022-10-11 10:04:33.247842 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Initial; force: no; size: 1
+2022-10-11 10:04:33.247842 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Creating queue element:3
+2022-10-11 10:04:33.247842 +0530 (0x00003bfc) [info] DownloadTrackerWorkerNode : restarted <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA>
+2022-10-11 10:04:33.247842 +0530 (0x00001728) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484462&ei=TvJEY_SkCfqFjuMPgqe6kA8&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-ADmdnzThsCIX_yJA9c_jEtWr3CaYwQjWeJtw_WfGfLMw&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAJggD8gXLGvSZZEV3bCMqaKSRnanHvTlY3PJDyJBaVeFAiEAuVzhwnVos9ieYoedaBqLXC64Y__UV8mk01QBjwjkgCY%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgZW-ZvBXI_UYh9aoBQTpscBeF52q5-wxdpyROgP_-2N0CIQDQL-1RIypPcaRRqmyX4BgaNKJ0X3oQ7xfMeMwZb-3c6Q%3D%3D
+2022-10-11 10:04:33.247842 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Queue element:3 was created
+2022-10-11 10:04:33.247842 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Pending; force: no; size: 1
+2022-10-11 10:04:33.544905 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:04:33.544905 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:04:33.544905 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 101187631-103284783(total: 114694688, valid) content size: 2097153>
+2022-10-11 10:04:33.544905 +0530 (0x00004328) [debug] [downloader] [HttpDownloaderQueue_00000292A19ED950] notify element:3 state:Active
+2022-10-11 10:04:33.544905 +0530 (0x00004328) [info] Media Downloader: stateStart
+2022-10-11 10:04:42.373703 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Finish' asio.misc:2:End of file
+2022-10-11 10:04:42.373703 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <stream written bytes: 2097153, downloaded bytes: 0, errors count: 0, eof: true, canceled: false>
+2022-10-11 10:04:42.373703 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <start position: 103284784 end position: 105381936 total size: 114694688 last read: false>
+2022-10-11 10:04:42.373703 +0530 (0x00004d10) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484462&ei=TvJEY_SkCfqFjuMPgqe6kA8&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-ADmdnzThsCIX_yJA9c_jEtWr3CaYwQjWeJtw_WfGfLMw&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAJggD8gXLGvSZZEV3bCMqaKSRnanHvTlY3PJDyJBaVeFAiEAuVzhwnVos9ieYoedaBqLXC64Y__UV8mk01QBjwjkgCY%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgZW-ZvBXI_UYh9aoBQTpscBeF52q5-wxdpyROgP_-2N0CIQDQL-1RIypPcaRRqmyX4BgaNKJ0X3oQ7xfMeMwZb-3c6Q%3D%3D
+2022-10-11 10:04:42.373703 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:04:42.373703 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:04:42.748540 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:04:42.748540 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:04:42.748540 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 103284784-105381936(total: 114694688, valid) content size: 2097153>
+2022-10-11 10:05:02.963201 +0530 (0x0000517c) [info] DownloadTrackerWorkerNode : restarting <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA> : avg speed = 0
+2022-10-11 10:05:02.963201 +0530 (0x0000517c) [info] YoutubeSingleVideoUrlAnalyzerNode url: https://www.youtube.com/watch?v=MPvr-LmaZmA
+2022-10-11 10:05:02.963201 +0530 (0x0000517c) [info] [http] [HttpDownloaderImpl_0000000000000028] Start http downloader https://www.youtube.com/watch?v=MPvr-LmaZmA&gl=US&hl=en&has_verified=1&bpctr=9999999999
+2022-10-11 10:05:04.025453 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000028] handleOpen system:0:The operation completed successfully
+2022-10-11 10:05:04.993979 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000028] close
+2022-10-11 10:05:04.993979 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000028] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:05.025238 +0530 (0x0000517c) [warning] Cannot parse json. Error: [json.exception.out_of_range.403] key 'INITIAL_ENDPOINT' not found
+2022-10-11 10:05:05.025238 +0530 (0x0000517c) [warning] Cannot parse json. Error: [json.exception.parse_error.101] parse error at 22: syntax error - invalid literal; last read: '"CSI_SERVICE_NAME": ''
+2022-10-11 10:05:05.025238 +0530 (0x0000517c) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:05:05.103361 +0530 (0x0000517c) [info] [http] [HttpDownloaderImpl_0000000000000029] Start http downloader https://www.youtube.com/youtubei/v1/player?key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8
+2022-10-11 10:05:06.415508 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000029] handleOpen system:0:The operation completed successfully
+2022-10-11 10:05:06.806348 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000029] close
+2022-10-11 10:05:06.806348 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000029] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:06.806348 +0530 (0x0000517c) [info] [http] [HttpDownloaderImpl_000000000000002A] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/sddefault.jpg
+2022-10-11 10:05:07.649625 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002A] handleOpen system:0:The operation completed successfully
+2022-10-11 10:05:08.055817 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002A] close
+2022-10-11 10:05:08.055817 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002A] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:08.055817 +0530 (0x00003bfc) [debug] Json exception: [json.exception.out_of_range.403] key 'dashManifestUrl' not found
+2022-10-11 10:05:08.093221 +0530 (0x00003bfc) [info] [http] [HttpDownloaderImpl_000000000000002B] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/maxresdefault.jpg
+2022-10-11 10:05:08.676118 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002B] handleOpen system:0:The operation completed successfully
+2022-10-11 10:05:09.581921 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002B] close
+2022-10-11 10:05:09.581921 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002B] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:09.613155 +0530 (0x000015f8) [debug] Json exception: [json.exception.out_of_range.403] key 'dashManifestUrl' not found
+2022-10-11 10:05:09.660045 +0530 (0x000015f8) [debug] Json exception: [json.exception.out_of_range.403] key 'microformat' not found
+2022-10-11 10:05:09.660045 +0530 (0x000015f8) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:05:09.660045 +0530 (0x000015f8) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:05:09.660045 +0530 (0x000015f8) [debug] Json exception: [json.exception.type_error.304] cannot use at() with null
+2022-10-11 10:05:09.660045 +0530 (0x00002d54) [info] [http] [HttpDownloaderImpl_000000000000002C] Start http downloader https://i.ytimg.com/vi/MPvr-LmaZmA/sddefault.jpg
+2022-10-11 10:05:09.660045 +0530 (0x0000517c) [debug] Json exception: [json.exception.out_of_range.403] key 'simpleText' not found
+2022-10-11 10:05:09.660045 +0530 (0x0000517c) [info] [http] [HttpDownloaderImpl_000000000000002D] Start http downloader https://www.youtube.com/api/timedtext?v=MPvr-LmaZmA&caps=asr&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1665488106&sparams=ip,ipbits,expire,v,caps,xoaf&signature=13C79D9DAC35CACA4168E0C172314236F2CD7ED5.A07B610DF4C06385AC38909A0381594AC72E3CF3&key=yt8&lang=en-IN&fmt=srv3
+2022-10-11 10:05:10.409846 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002D] handleOpen system:0:The operation completed successfully
+2022-10-11 10:05:10.409846 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002D] close
+2022-10-11 10:05:10.409846 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002D] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:10.409846 +0530 (0x0000517c) [info] [http] [HttpDownloaderImpl_000000000000002E] Start http downloader https://www.youtube.com/api/timedtext?v=MPvr-LmaZmA&caps=asr&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1665488103&sparams=ip,ipbits,expire,v,caps,xoaf&signature=6085B81155E5D3098B2D08BFEFA05C79381C72E3.C880E684F4EC6581316E9F3132FF580C2BF2E1B8&key=yt8&lang=en-IN
+2022-10-11 10:05:10.784751 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002C] handleOpen system:0:The operation completed successfully
+2022-10-11 10:05:11.909520 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002E] handleOpen system:0:The operation completed successfully
+2022-10-11 10:05:11.909520 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002E] close
+2022-10-11 10:05:11.909520 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002E] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002C] close
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002C] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:12.565861 +0530 (0x0000517c) [info] [download] [DownloaderNode_00000292AA37E310] Start downloading <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA>
+2022-10-11 10:05:12.565861 +0530 (0x00003bfc) [debug] media_downloader::cancel
+2022-10-11 10:05:12.565861 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:3 is canceled and was in 'Active' state
+2022-10-11 10:05:12.565861 +0530 (0x00001728) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] cancel with downloader
+2022-10-11 10:05:12.565861 +0530 (0x00001728) [info] [http] [HttpDownloaderImpl_00000292AA37E310] cancel
+2022-10-11 10:05:12.565861 +0530 (0x00001728) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::cancel finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::shutdown finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:05:12.565861 +0530 (0x00004328) [debug] [downloader] [HttpDownloaderQueue_00000292A19ED950] notify element:3 state:Canceled
+2022-10-11 10:05:12.565861 +0530 (0x00004328) [info] Media Downloader: stateCancel
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [warning] [http] [ReadCoro_00000292AA37E310] coro finished with ec = beast.http:2, partial message
+2022-10-11 10:05:12.565861 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Initial; force: no; size: 0
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [warning] [http] [HttpDownloaderImpl_00000292AA37E310] Try to call notification function after finish
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:05:12.565861 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Pending; force: no; size: 0
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::cancel finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:05:12.565861 +0530 (0x00004d10) [debug] [http] [HttpSStream_00000292AA37E310] socket::shutdown finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 10:05:12.565861 +0530 (0x00003bfc) [debug] media_downloader::cancel
+2022-10-11 10:05:12.565861 +0530 (0x00001728) [error] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:3 is not found
+2022-10-11 10:05:12.565861 +0530 (0x00001728) [error] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:3 is not found
+2022-10-11 10:05:12.581223 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Initial; force: no; size: 1
+2022-10-11 10:05:12.581223 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Creating queue element:4
+2022-10-11 10:05:12.581223 +0530 (0x000015f8) [info] DownloadTrackerWorkerNode : restarted <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA>
+2022-10-11 10:05:12.581223 +0530 (0x00001728) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484506&ei=evJEY7HACuKTg8UPxrGUuAY&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-AHjVXvJMEugSpJdEpScYpaLNJn1SmOkcFH-Kvc80CJWI&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgVFlnMwKavopv9WJu1oYP1jVM-ggH4RE-tHgN1wCPZfcCIBLBluxkv1_GcOgdtuqJ6TVNfTP-rCWrYKmmr3MFrY42&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAcWjkaR-n8PVdo9hjb23CWEVpnHCpNNmbDdKy_5jRYMCIBEwO9MGBwkCQaYNVBqhQUyRiK_hi9Natrsln4Wq2-FQ
+2022-10-11 10:05:12.581223 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Queue element:4 was created
+2022-10-11 10:05:12.581223 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Pending; force: no; size: 1
+2022-10-11 10:05:13.362277 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:05:13.362277 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:05:13.362277 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 104988720-107085872(total: 114694688, valid) content size: 2097153>
+2022-10-11 10:05:13.362277 +0530 (0x00004328) [debug] [downloader] [HttpDownloaderQueue_00000292A19ED950] notify element:4 state:Active
+2022-10-11 10:05:13.362277 +0530 (0x00004328) [info] Media Downloader: stateStart
+2022-10-11 10:05:21.033461 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Finish' asio.misc:2:End of file
+2022-10-11 10:05:21.033461 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <stream written bytes: 2097153, downloaded bytes: 0, errors count: 0, eof: true, canceled: false>
+2022-10-11 10:05:21.033461 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <start position: 107085873 end position: 109183025 total size: 114694688 last read: false>
+2022-10-11 10:05:21.033461 +0530 (0x00004d10) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484506&ei=evJEY7HACuKTg8UPxrGUuAY&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-AHjVXvJMEugSpJdEpScYpaLNJn1SmOkcFH-Kvc80CJWI&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgVFlnMwKavopv9WJu1oYP1jVM-ggH4RE-tHgN1wCPZfcCIBLBluxkv1_GcOgdtuqJ6TVNfTP-rCWrYKmmr3MFrY42&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAcWjkaR-n8PVdo9hjb23CWEVpnHCpNNmbDdKy_5jRYMCIBEwO9MGBwkCQaYNVBqhQUyRiK_hi9Natrsln4Wq2-FQ
+2022-10-11 10:05:21.049075 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:05:21.049075 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:21.330217 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:05:21.330217 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:05:21.330217 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 107085873-109183025(total: 114694688, valid) content size: 2097153>
+2022-10-11 10:05:22.564582 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:05:28.391406 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Finish' asio.misc:2:End of file
+2022-10-11 10:05:28.391406 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <stream written bytes: 4194306, downloaded bytes: 2097153, errors count: 0, eof: true, canceled: false>
+2022-10-11 10:05:28.391406 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <start position: 109183026 end position: 111280178 total size: 114694688 last read: false>
+2022-10-11 10:05:28.391406 +0530 (0x00004d10) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484506&ei=evJEY7HACuKTg8UPxrGUuAY&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-AHjVXvJMEugSpJdEpScYpaLNJn1SmOkcFH-Kvc80CJWI&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgVFlnMwKavopv9WJu1oYP1jVM-ggH4RE-tHgN1wCPZfcCIBLBluxkv1_GcOgdtuqJ6TVNfTP-rCWrYKmmr3MFrY42&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAcWjkaR-n8PVdo9hjb23CWEVpnHCpNNmbDdKy_5jRYMCIBEwO9MGBwkCQaYNVBqhQUyRiK_hi9Natrsln4Wq2-FQ
+2022-10-11 10:05:28.391406 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:05:28.391406 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:28.610111 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:05:28.610111 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:05:28.610111 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 109183026-111280178(total: 114694688, valid) content size: 2097153>
+2022-10-11 10:05:42.530146 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Finish' asio.misc:2:End of file
+2022-10-11 10:05:42.530146 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <stream written bytes: 6291459, downloaded bytes: 4194306, errors count: 0, eof: true, canceled: false>
+2022-10-11 10:05:42.530146 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <start position: 111280179 end position: 113377331 total size: 114694688 last read: false>
+2022-10-11 10:05:42.530146 +0530 (0x00004d10) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484506&ei=evJEY7HACuKTg8UPxrGUuAY&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-AHjVXvJMEugSpJdEpScYpaLNJn1SmOkcFH-Kvc80CJWI&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgVFlnMwKavopv9WJu1oYP1jVM-ggH4RE-tHgN1wCPZfcCIBLBluxkv1_GcOgdtuqJ6TVNfTP-rCWrYKmmr3MFrY42&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAcWjkaR-n8PVdo9hjb23CWEVpnHCpNNmbDdKy_5jRYMCIBEwO9MGBwkCQaYNVBqhQUyRiK_hi9Natrsln4Wq2-FQ
+2022-10-11 10:05:42.530146 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:05:42.530146 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:42.857902 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:05:42.857902 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:05:42.873496 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 111280179-113377331(total: 114694688, valid) content size: 2097153>
+2022-10-11 10:05:52.637248 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Finish' asio.misc:2:End of file
+2022-10-11 10:05:52.637248 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <stream written bytes: 8388612, downloaded bytes: 6291459, errors count: 0, eof: true, canceled: false>
+2022-10-11 10:05:52.637248 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <start position: 113377332 end position: 114694687 total size: 114694688 last read: false>
+2022-10-11 10:05:52.637248 +0530 (0x00004d10) [info] [http] [HttpDownloaderImpl_00000292AA37E310] Start http downloader https://rr6---sn-gwpa-civy.googlevideo.com/videoplayback?expire=1665484506&ei=evJEY7HACuKTg8UPxrGUuAY&ip=2405%3A201%3A3006%3A81e3%3Ae121%3A3584%3A3b3c%3A37b6&id=o-AHjVXvJMEugSpJdEpScYpaLNJn1SmOkcFH-Kvc80CJWI&itag=299&source=youtube&requiressl=yes&mh=l6&mm=31%2C29&mn=sn-gwpa-civy%2Csn-gwpa-cvhy&ms=au%2Crdu&mv=m&mvi=6&pl=50&initcwndbps=242500&vprv=1&mime=video%2Fmp4&gir=yes&clen=114694688&dur=2137.552&lmt=1639477848135293&mt=1665462100&fvip=4&keepalive=yes&fexp=24001373%2C24007246&c=ANDROID&txp=5432434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgVFlnMwKavopv9WJu1oYP1jVM-ggH4RE-tHgN1wCPZfcCIBLBluxkv1_GcOgdtuqJ6TVNfTP-rCWrYKmmr3MFrY42&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAcWjkaR-n8PVdo9hjb23CWEVpnHCpNNmbDdKy_5jRYMCIBEwO9MGBwkCQaYNVBqhQUyRiK_hi9Natrsln4Wq2-FQ
+2022-10-11 10:05:52.637248 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:05:52.637248 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:53.074231 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleOpen openmedia.http:206:Partial Content
+2022-10-11 10:05:53.074231 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Open' openmedia.http:206:Partial Content
+2022-10-11 10:05:53.074231 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onDownloadEvent: <range: 113377332-114694687(total: 114694688, valid) content size: 1317356>
+2022-10-11 10:05:57.901241 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onEvent 'Finish' asio.misc:2:End of file
+2022-10-11 10:05:57.901241 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <stream written bytes: 9705968, downloaded bytes: 8388612, errors count: 0, eof: true, canceled: false>
+2022-10-11 10:05:57.901241 +0530 (0x00004d10) [debug] [http] [HttpDownloaderMulti_00000292AA37E310] onFinishEvent: <start position: 114694688 end position: 114694687 total size: 114694688 last read: true>
+2022-10-11 10:05:57.901241 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] close
+2022-10-11 10:05:57.901241 +0530 (0x00004328) [debug] [downloader] [HttpDownloaderQueue_00000292A19ED950] notify element:4 state:Finished
+2022-10-11 10:05:57.901241 +0530 (0x00004328) [info] Media Downloader: stateFinish
+2022-10-11 10:05:57.901241 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Initial; force: no; size: 0
+2022-10-11 10:05:57.901241 +0530 (0x00001728) [info] [downloader] [HttpDownloaderQueue_00000292A19ED950] Checking queue: state: Pending; force: no; size: 0
+2022-10-11 10:05:57.901241 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_00000292AA37E310] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:05:57.901241 +0530 (0x00002d54) [debug] media_downloader::cancel
+2022-10-11 10:05:57.901241 +0530 (0x00001728) [error] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:4 is not found
+2022-10-11 10:05:57.901241 +0530 (0x00002d54) [info] DownloadTrackerWorkerNode : finished <type = ; service = youtube; url = https://www.youtube.com/watch?v=MPvr-LmaZmA>
+2022-10-11 10:05:58.010572 +0530 (0x000015f8) [info] [ffmpeg] Output #0, mp4, to 'C:\Users\yashw\Videos\4K Video Downloader\Lecture 20 Solving LeetCode CodeStudio Questions [Arrays].mp4':
+2022-10-11 10:05:58.010572 +0530 (0x000015f8) [info] [ffmpeg]     Stream #0:0
+2022-10-11 10:05:58.010572 +0530 (0x000015f8) [info] [ffmpeg] : Video: h264 (High), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 1 kb/s
+2022-10-11 10:05:58.010572 +0530 (0x000015f8) [info] [ffmpeg] 
+2022-10-11 10:05:58.010572 +0530 (0x000015f8) [info] [ffmpeg]     Stream #0:1
+2022-10-11 10:05:58.010572 +0530 (0x000015f8) [info] [ffmpeg] : Audio: aac (LC), 44100 Hz, stereo, fltp, 129 kb/s
+2022-10-11 10:05:58.010572 +0530 (0x000015f8) [info] [ffmpeg] 
+2022-10-11 10:05:58.010572 +0530 (0x000013f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000292A19F1130] Checking queue: state: Initial; force: no; size: 1
+2022-10-11 10:05:58.010572 +0530 (0x000013f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000292A19F1130] Creating queue element:1
+2022-10-11 10:05:58.010572 +0530 (0x000013f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000292A19F1130] Queue element:1 was created
+2022-10-11 10:05:58.010572 +0530 (0x000013f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000292A19F1130] Checking queue: state: Pending; force: no; size: 1
+2022-10-11 10:05:58.713527 +0530 (0x000015f8) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 5% processed
+2022-10-11 10:05:58.963468 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 5% processed
+2022-10-11 10:05:59.338382 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 10% processed
+2022-10-11 10:05:59.838264 +0530 (0x0000517c) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 10% processed
+2022-10-11 10:05:59.978855 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 15% processed
+2022-10-11 10:06:00.650571 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 20% processed
+2022-10-11 10:06:00.791167 +0530 (0x000015f8) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 15% processed
+2022-10-11 10:06:01.322294 +0530 (0x000015f8) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 25% processed
+2022-10-11 10:06:01.681579 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 20% processed
+2022-10-11 10:06:01.962768 +0530 (0x000015f8) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 30% processed
+2022-10-11 10:06:02.587620 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 25% processed
+2022-10-11 10:06:02.603240 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 35% processed
+2022-10-11 10:06:03.228107 +0530 (0x000015f8) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 40% processed
+2022-10-11 10:06:03.462417 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 30% processed
+2022-10-11 10:06:03.837327 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 45% processed
+2022-10-11 10:06:04.290344 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 35% processed
+2022-10-11 10:06:04.446560 +0530 (0x0000517c) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 50% processed
+2022-10-11 10:06:05.056199 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 55% processed
+2022-10-11 10:06:05.149928 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 40% processed
+2022-10-11 10:06:05.743538 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 60% processed
+2022-10-11 10:06:06.071589 +0530 (0x0000517c) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 45% processed
+2022-10-11 10:06:06.368392 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 65% processed
+2022-10-11 10:06:06.962006 +0530 (0x0000517c) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 50% processed
+2022-10-11 10:06:06.993247 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 70% processed
+2022-10-11 10:06:07.602478 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 75% processed
+2022-10-11 10:06:07.821176 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 55% processed
+2022-10-11 10:06:08.211711 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 80% processed
+2022-10-11 10:06:08.649108 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 60% processed
+2022-10-11 10:06:08.805321 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 85% processed
+2022-10-11 10:06:09.461420 +0530 (0x0000517c) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 90% processed
+2022-10-11 10:06:09.539526 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 65% processed
+2022-10-11 10:06:10.070651 +0530 (0x0000517c) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 95% processed
+2022-10-11 10:06:10.383078 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 70% processed
+2022-10-11 10:06:10.664261 +0530 (0x000015f8) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 1: 100% processed
+2022-10-11 10:06:10.664261 +0530 (0x0000517c) [info] [convert] [AVDemuxingNode] File context of C:\Users\yashw\Videos\4K Video Downloader\Lecture 20 Solving LeetCode CodeStudio Questions [Arrays].mp4.a358-99b9-c80f-c041.part is depleted: End of file
+2022-10-11 10:06:10.679883 +0530 (0x000015f8) [info] [convert] [AVPacketCopierNode: Stream 1] Finished, empty packet sent
+2022-10-11 10:06:10.679883 +0530 (0x0000517c) [info] [convert] [AVMuxingNode] Stream 1: Muxing complete
+2022-10-11 10:06:10.929826 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 75% processed
+2022-10-11 10:06:11.320358 +0530 (0x000015f8) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 80% processed
+2022-10-11 10:06:11.710892 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 85% processed
+2022-10-11 10:06:12.085804 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 90% processed
+2022-10-11 10:06:12.476337 +0530 (0x00003bfc) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 95% processed
+2022-10-11 10:06:12.835628 +0530 (0x00002d54) [debug] [convert] [AVProgressNode] updateStreamPercent: Stream 0: 100% processed
+2022-10-11 10:06:12.835628 +0530 (0x00003bfc) [info] [convert] [AVPacketCopierNode: Stream 0] Finished, empty packet sent
+2022-10-11 10:06:12.835628 +0530 (0x0000517c) [info] [convert] [AVDemuxingNode] File context of C:\Users\yashw\Videos\4K Video Downloader\Lecture 20 Solving LeetCode CodeStudio Questions [Arrays].mp4.d237-6d92-69d1-f833.part is depleted: End of file
+2022-10-11 10:06:12.835628 +0530 (0x000015f8) [info] [convert] [AVMuxingNode] Stream 0: Muxing complete
+2022-10-11 10:06:12.866873 +0530 (0x0000170c) [debug] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000292A19F1130] notify element:1 state:Finished
+2022-10-11 10:06:12.866873 +0530 (0x000013f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000292A19F1130] Checking queue: state: Initial; force: no; size: 0
+2022-10-11 10:06:12.866873 +0530 (0x000013f0) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000292A19F1130] Checking queue: state: Pending; force: no; size: 0
+2022-10-11 10:06:12.882492 +0530 (0x00001f20) [debug] initializeEntityGraphStructure: graph structure is disabled
+2022-10-11 10:06:12.882492 +0530 (0x00001f20) [debug] processEntityGraph: can't form graph structure for DownloaderGraphParentWrapper (2828975248024)
+2022-10-11 10:06:12.882492 +0530 (0x00001f20) [debug] media_downloader::cancel
+2022-10-11 10:06:12.882492 +0530 (0x00001728) [error] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:4 is not found
+2022-10-11 10:06:12.898113 +0530 (0x00001f20) [info] Finished file downloading: C:\Users\yashw\Videos\4K Video Downloader\Lecture 20 Solving LeetCode CodeStudio Questions [Arrays].mp4
+2022-10-11 10:06:12.898113 +0530 (0x00002e8c) [debug] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000292AA2A7180] notify element:1 state:Finished
+2022-10-11 10:06:12.898113 +0530 (0x0000156c) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000292AA2A7180] Checking queue: state: Initial; force: no; size: 0
+2022-10-11 10:06:12.898113 +0530 (0x0000156c) [info] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000292AA2A7180] Checking queue: state: Pending; force: no; size: 0
+2022-10-11 10:06:12.898113 +0530 (0x0000156c) [error] [downloadermodel] [SimultaneouslyRunningControllersQueue[download]_00000292AA2A7180] cancel: element:1 is not found
+2022-10-11 10:06:12.898113 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_000000000000002F] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Download&ea=Finish&el=succeeded%20%7C%20video&z=18629
+2022-10-11 10:06:12.898113 +0530 (0x00001728) [error] [downloader] [HttpDownloaderQueue_00000292A19ED950] cancel: element:4 is not found
+2022-10-11 10:06:13.802506 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002F] handleOpen system:0:The operation completed successfully
+2022-10-11 10:06:13.802506 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002F] close
+2022-10-11 10:06:13.802506 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_000000000000002F] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 10:06:23.297989 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:07:18.140777 +0530 (0x00003bfc) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:07:18.140777 +0530 (0x00003bfc) [info] Check subscription after 300s
+2022-10-11 10:07:24.320680 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:08:25.445635 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:09:25.909591 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:10:27.057574 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:11:30.359013 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:12:18.153708 +0530 (0x000015f8) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:12:18.153708 +0530 (0x000015f8) [info] Check subscription after 300s
+2022-10-11 10:12:30.859241 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:13:31.525625 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:14:32.271926 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:15:33.263669 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:16:33.940943 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:17:18.155312 +0530 (0x00003bfc) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:17:18.155312 +0530 (0x00003bfc) [info] Check subscription after 300s
+2022-10-11 10:17:34.515302 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:18:35.751265 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:19:36.658689 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:20:37.204787 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:21:37.603726 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:22:18.160593 +0530 (0x000015f8) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:22:18.160593 +0530 (0x000015f8) [info] Check subscription after 300s
+2022-10-11 10:22:38.047862 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:23:39.004277 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:24:41.153616 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:25:41.568678 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:26:42.163799 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:27:18.168307 +0530 (0x00003bfc) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:27:18.168307 +0530 (0x00003bfc) [info] Check subscription after 300s
+2022-10-11 10:27:42.573439 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:28:46.294851 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:29:48.360198 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:30:50.395681 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:31:52.216721 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:32:18.169905 +0530 (0x000015f8) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:32:18.169905 +0530 (0x000015f8) [info] Check subscription after 300s
+2022-10-11 10:32:53.554831 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:33:53.976411 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:34:54.397607 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:35:55.106403 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:36:55.946203 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:37:18.170963 +0530 (0x00003bfc) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:37:18.170963 +0530 (0x00003bfc) [info] Check subscription after 300s
+2022-10-11 10:37:57.586736 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:40:30.338845 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:41:30.870300 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:42:31.550799 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:43:32.584140 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:43:50.450078 +0530 (0x000015f8) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:43:50.450078 +0530 (0x000015f8) [info] Check subscription after 300s
+2022-10-11 10:44:34.602238 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:45:35.272934 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:46:36.316797 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:47:37.807701 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:48:38.755381 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:48:50.462169 +0530 (0x00003bfc) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:48:50.462169 +0530 (0x00003bfc) [info] Check subscription after 300s
+2022-10-11 10:49:40.301729 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:50:41.712693 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:51:43.530515 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:52:45.491661 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:53:46.224483 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:53:50.469469 +0530 (0x000015f8) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:53:50.469469 +0530 (0x000015f8) [info] Check subscription after 300s
+2022-10-11 10:54:47.922251 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:55:48.484317 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:56:49.106099 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:57:59.551553 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 10:58:50.484830 +0530 (0x00003bfc) [info] There are not subscriptions. Iteration is not started
+2022-10-11 10:58:50.484830 +0530 (0x00003bfc) [info] Check subscription after 300s
+2022-10-11 10:59:01.044025 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:00:01.876886 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:01:02.308968 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:02:03.138852 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:02:18.806434 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000030] Start http downloader https://dl.4kdownload.com/app/news/videodownloader.json
+2022-10-11 11:02:20.062139 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000030] handleOpen system:0:The operation completed successfully
+2022-10-11 11:02:20.062139 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000030] close
+2022-10-11 11:02:20.062139 +0530 (0x00005c04) [info] [Feedback] [NewsCenter] downloaded
+2022-10-11 11:02:20.063146 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000030] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 11:03:04.200413 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:03:50.487210 +0530 (0x000015f8) [info] There are not subscriptions. Iteration is not started
+2022-10-11 11:03:50.487210 +0530 (0x000015f8) [info] Check subscription after 300s
+2022-10-11 11:04:05.145408 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:05:05.794465 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:06:07.541855 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:07:08.289341 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:08:09.374869 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:08:50.488760 +0530 (0x00003bfc) [info] There are not subscriptions. Iteration is not started
+2022-10-11 11:08:50.488760 +0530 (0x00003bfc) [info] Check subscription after 300s
+2022-10-11 11:09:12.202384 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:10:13.641163 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:11:17.943987 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:12:20.567501 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:13:21.603694 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:13:50.496948 +0530 (0x000015f8) [info] There are not subscriptions. Iteration is not started
+2022-10-11 11:13:50.496948 +0530 (0x000015f8) [info] Check subscription after 300s
+2022-10-11 11:14:22.570047 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:15:23.771794 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:16:24.269316 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:17:24.861500 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:18:25.678527 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:18:50.501077 +0530 (0x00003bfc) [info] There are not subscriptions. Iteration is not started
+2022-10-11 11:18:50.501077 +0530 (0x00003bfc) [info] Check subscription after 300s
+2022-10-11 11:19:26.149711 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:20:27.367524 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:21:29.209261 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:22:30.036421 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:23:32.091669 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:23:50.508000 +0530 (0x000015f8) [info] There are not subscriptions. Iteration is not started
+2022-10-11 11:23:50.508000 +0530 (0x000015f8) [info] Check subscription after 300s
+2022-10-11 11:24:33.571628 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:25:33.998455 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:26:36.230084 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:27:36.872625 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:28:38.340668 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 11:28:50.522664 +0530 (0x00003bfc) [info] There are not subscriptions. Iteration is not started
+2022-10-11 11:28:50.522664 +0530 (0x00003bfc) [info] Check subscription after 300s
+2022-10-11 14:14:20.501666 +0530 (0x00005c04) [info] [SoftwareUpdate] [Manager] checking
+2022-10-11 14:14:20.509700 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000031] Start http downloader https://dl.4kdownload.com/app/news/videodownloader.json
+2022-10-11 14:14:20.509700 +0530 (0x00004374) [info] [http] [HttpDownloaderImpl_0000000000000032] Start http downloader https://dl.4kdownload.com/app/appcast/videodownloader.xml
+2022-10-11 14:14:31.864597 +0530 (0x00004d10) [warning] [http] [DirectConnect_0000000000000031] coro finished with ec = system:11001, No such host is known, host = dl.4kdownload.com, service = https
+2022-10-11 14:14:31.864597 +0530 (0x00004d10) [warning] [http] [HttpSOpen_0000000000000031] coro finished with ec = system:11001, No such host is known, host = dl.4kdownload.com, service = https, target = /app/news/videodownloader.json
+2022-10-11 14:14:31.864597 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000031] handleOpen system:11001:No such host is known
+2022-10-11 14:14:31.864597 +0530 (0x00004d10) [warning] [http] [HttpDownloaderImpl_0000000000000031] handleRead: system:10057:A request to send or receive data was disallowed because the socket is not connected and (when sending on a datagram socket using a sendto call) no address was supplied
+2022-10-11 14:14:31.864597 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000031] close
+2022-10-11 14:14:31.864597 +0530 (0x00004d10) [debug] [http] [HttpSStream_0000000000000031] socket::cancel finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 14:14:31.864597 +0530 (0x00004d10) [debug] [http] [HttpSStream_0000000000000031] socket::shutdown finished with ec = system:10009, The file handle supplied is not valid
+2022-10-11 14:14:31.864597 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000031] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 14:14:31.864597 +0530 (0x00005c04) [error] [Feedback] [NewsCenter] failed to download
+2022-10-11 14:14:31.864597 +0530 (0x00005c04) [warning] Cannot parse json. Error : Dynamic exception type: class nlohmann::detail::parse_error
+std::exception::what: [json.exception.parse_error.101] parse error at 1: syntax error - unexpected end of input; expected '[', '{', or a literal
+2022-10-11 14:14:36.344758 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 14:14:37.111569 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000032] handleOpen system:0:The operation completed successfully
+2022-10-11 14:14:37.111569 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000032] close
+2022-10-11 14:14:37.111569 +0530 (0x00005c04) [info] [SoftwareUpdate] [Manager] parsing
+2022-10-11 14:14:37.111569 +0530 (0x00004d10) [debug] [http] [HttpDownloaderImpl_0000000000000032] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-11 14:14:37.111569 +0530 (0x00005c04) [info] [SoftwareUpdate] [Manager] no update available
+2022-10-11 14:15:37.110960 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 14:16:37.971239 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 14:17:38.904118 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 14:18:39.826911 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is unreachable
+2022-10-11 14:18:42.010150 +0530 (0x000015f8) [info] There are not subscriptions. Iteration is not started
+2022-10-11 14:18:42.010150 +0530 (0x000015f8) [info] Check subscription after 300s
+2022-10-11 14:18:57.338748 +0530 (0x00004d10) [warning] [NetworkReachability] [Connect_000000F2B64FF010] can't perform handshake ec = system:1236, The network connection was aborted by the local system
+2022-10-11 14:18:57.374266 +0530 (0x00004d10) [warning] [NetworkReachability] [Connect_000000F2B64FF010] can't resolve http@www.google.com, ec = system:11001, No such host is known
+2022-10-11 14:18:57.374266 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is unreachable
+2022-10-11 14:19:07.394879 +0530 (0x00004d10) [warning] [NetworkReachability] [Connect_000000F2B64FF010] can't resolve https@www.youtube.com, ec = system:11001, No such host is known
+2022-10-11 14:19:07.394879 +0530 (0x00004d10) [warning] [NetworkReachability] [Connect_000000F2B64FF010] can't resolve http@www.google.com, ec = system:11001, No such host is known
+2022-10-11 14:19:07.394879 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is unreachable
+2022-10-11 14:19:17.401845 +0530 (0x00004d10) [warning] [NetworkReachability] [Connect_000000F2B64FF010] can't resolve https@www.youtube.com, ec = system:11001, No such host is known
+2022-10-11 14:19:17.401845 +0530 (0x00004d10) [warning] [NetworkReachability] [Connect_000000F2B64FF010] can't resolve http@www.google.com, ec = system:11001, No such host is known
+2022-10-11 14:19:17.401845 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is unreachable
+2022-10-11 14:19:35.762844 +0530 (0x00004d10) [warning] [NetworkReachability] [Connect_000000F2B64FF010] can't perform handshake ec = boost.beast:1, The socket was closed due to a timeout
+2022-10-11 14:19:35.967065 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 14:20:44.284587 +0530 (0x00004d10) [warning] [NetworkReachability] [Connect_000000F2B64FF010] can't perform handshake ec = boost.beast:1, The socket was closed due to a timeout
+2022-10-11 14:20:44.853786 +0530 (0x00004d10) [info] [NetworkReachability] [Loop_000000F2B60FF320] network is reachable
+2022-10-11 14:21:13.866254 +0530 (0x00005c04) [warning] QMainWindow::saveState(): 'objectName' not set for QToolBar 0x292abca09b0 '' (:0, )
+2022-10-11 14:21:13.961798 +0530 (0x00005fc8) [info] [downloadermodel] [QueueHandlingThread_00000292AA2A7740] finishing
+2022-10-11 14:21:13.961798 +0530 (0x00005fc8) [info] [downloadermodel] [QueueHandlingThread_00000292AA2A7740] finished
+2022-10-11 14:21:13.961798 +0530 (0x00004b38) [info] [downloadermodel] [NotificationHandlingThread_00000292AA2A7740] finishing
+2022-10-11 14:21:13.961798 +0530 (0x00004b38) [info] [downloadermodel] [NotificationHandlingThread_00000292AA2A7740] finished
+2022-10-11 14:21:13.961798 +0530 (0x0000156c) [info] [downloadermodel] [QueueHandlingThread_00000292AA2A7180] finishing
+2022-10-11 14:21:13.961798 +0530 (0x0000156c) [info] [downloadermodel] [QueueHandlingThread_00000292AA2A7180] finished
+2022-10-11 14:21:13.963163 +0530 (0x00002e8c) [info] [downloadermodel] [NotificationHandlingThread_00000292AA2A7180] finishing
+2022-10-11 14:21:13.963163 +0530 (0x00002e8c) [info] [downloadermodel] [NotificationHandlingThread_00000292AA2A7180] finished
+2022-10-11 14:21:13.963163 +0530 (0x00005c04) [info] WorkerGraphManager is stopping
+2022-10-11 14:21:13.963163 +0530 (0x00001f20) [info] Finished WorkerGraphManager::checkingThread
+2022-10-11 14:21:13.963163 +0530 (0x000048c0) [info] Finished WorkerGraphManager::statisticsLogThread
+2022-10-11 14:21:13.963163 +0530 (0x00005c04) [info] WorkerGraphManager is stopped
+2022-10-11 14:21:13.963163 +0530 (0x000053e0) [info] EventDispatcher is finishing
+2022-10-11 14:21:13.963163 +0530 (0x000053e0) [info] EventDispatcher is finished
+2022-10-11 14:21:13.963163 +0530 (0x00004c34) [info] [downloader] [QueueHandlingThread_00000292AFFF0E20] finishing
+2022-10-11 14:21:13.963163 +0530 (0x00004c34) [info] [downloader] [QueueHandlingThread_00000292AFFF0E20] finished
+2022-10-11 14:21:13.963163 +0530 (0x0000621c) [info] [downloader] [NotificationHandlingThread_00000292AFFF0E20] finishing
+2022-10-11 14:21:13.963163 +0530 (0x0000621c) [info] [downloader] [NotificationHandlingThread_00000292AFFF0E20] finished
+2022-10-11 14:21:13.963163 +0530 (0x00001cc8) [info] AsioContext::IoContext::threadFunc finished
+2022-10-11 14:21:13.966879 +0530 (0x00005e48) [info] AsioContext::IoContext::threadFunc finished
+2022-10-11 14:21:13.966879 +0530 (0x00001c74) [info] AsioContext::IoContext::threadFunc finished
+2022-10-11 14:21:13.966879 +0530 (0x00003ee0) [info] AsioContext::IoContext::threadFunc finished
+2022-10-11 14:21:13.966879 +0530 (0x000015f8) [info] AsioContext::IoContext::threadFunc finished
+2022-10-11 14:21:13.966879 +0530 (0x00003bfc) [info] AsioContext::IoContext::threadFunc finished
+2022-10-11 14:21:13.966879 +0530 (0x0000517c) [info] AsioContext::IoContext::threadFunc finished
+2022-10-11 14:21:13.966879 +0530 (0x00002d54) [info] AsioContext::IoContext::threadFunc finished
+2022-10-11 14:21:13.966879 +0530 (0x000013f0) [info] [SimpleExecutionQueue] [QueueHandlingThread_00000292A19F1130] finishing
+2022-10-11 14:21:13.966879 +0530 (0x000013f0) [info] [SimpleExecutionQueue] [QueueHandlingThread_00000292A19F1130] finished
+2022-10-11 14:21:13.966879 +0530 (0x0000170c) [info] [SimpleExecutionQueue] [NotificationHandlingThread_00000292A19F1130] finishing
+2022-10-11 14:21:13.966879 +0530 (0x0000170c) [info] [SimpleExecutionQueue] [NotificationHandlingThread_00000292A19F1130] finished
+2022-10-11 14:21:13.966879 +0530 (0x00001728) [info] [downloader] [QueueHandlingThread_00000292A19ED950] finishing
+2022-10-11 14:21:13.966879 +0530 (0x00001728) [info] [downloader] [QueueHandlingThread_00000292A19ED950] finished
+2022-10-11 14:21:13.966879 +0530 (0x00004328) [info] [downloader] [NotificationHandlingThread_00000292A19ED950] finishing
+2022-10-11 14:21:13.966879 +0530 (0x00004328) [info] [downloader] [NotificationHandlingThread_00000292A19ED950] finished
+2022-10-11 14:21:13.971113 +0530 (0x00002090) [info] IO thread: 0 handlers were executed

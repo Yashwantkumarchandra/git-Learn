@@ -1,0 +1,90 @@
+
+
+------------------------------------------------------------
+Application started
+19:38:35.593: (I)  2436: ice.systeminfo      : OS version: "Windows 10 Version 2009"
+19:38:35.593: (I)  2436: ice.systeminfo      : Kernel version: "10.0.22621"
+19:38:35.593: (I)  2436: ice.systeminfo      : CPU architecture: "x86_64"
+19:38:35.593: (I)  2436: ice.systeminfo      : Build ABI: "i386-little_endian-ilp32"
+19:38:35.593: (I)  2436: ice.systeminfo      : Executable: "C:/Program Files (x86)/Icecream PDF Editor/icepdfeditor.exe"
+19:38:35.593: (I)  2436: ice.systeminfo      : BuildVersion: "2.6.2"
+19:38:35.593: (I)  2436: ice.systeminfo      : DisplayVersion: "2.62"
+19:38:35.593: (I)  2436: ice.systeminfo      : PID: 13364
+19:38:35.593: (I)  2436: ice.systeminfo      : Main thread id: 2436
+19:38:35.593: (I)  2436: ice.systeminfo      : Qt::AA_EnableHighDpiScaling: true
+19:38:35.593: (I)  2436: ice.systeminfo      : Qt::AA_DisableHighDpiScaling: false
+19:38:35.593: (I)  2436: ice.systeminfo      : Qt Screen 0: primary, winScale: 125%, pixelRatio: 1.25, logDpi: 96, phyDpi: 126.557, log/phy: 76%, geometry: {x:0, y:0, w: 1536, h: 864}, available: {x:0, y:0, w: 1536, h: 816}
+19:38:35.593: (I)  2436: ice.systeminfo      : 
+19:38:35.593: (I)  2436: ice.translator      : IceTranslator::IceTranslator()          : Translations directory: "C:/Program Files (x86)/Icecream PDF Editor/translations" , file prefix: "icepdfeditor" system locale: "en_IN"
+19:38:35.609: (I)  2436: ice.translator      : IceTranslator::translate()              : App translation applyed. Locale: "en"
+19:38:35.609: (I)  2436: ice.systeminfo      : IceApplication::showSplash()            : Previously saved screen number: 0
+19:38:35.609: (I)  2436: ice.systeminfo      : IceApplication::showSplash()            : Working geometry: QRect(0,0 1536x864)
+19:38:36.452: (I)  2436: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: begin
+19:38:36.491: (I)  2436: ice.application     : IceApplication::prepareNetworkAccessMana: Init SSL libraries: done, elapsed time: 38 msec , Enabled: true , Version: "OpenSSL 1.1.1h  22 Sep 2020"
+19:38:36.491: (I)  2436: sx                  : SX::init()                              : PDFCore file: OK "C:\\Program Files (x86)\\Icecream PDF Editor\\pdfcore-x86.dll"
+19:38:36.491: (I)  2436: sx                  : SX::init()                              : PDFCore file: OK "C:\\Program Files (x86)\\Icecream PDF Editor\\pdf-xpansion.pds"
+19:38:36.493: (I)  2436: sx                  : SX::init()                              : PDFCore file: OK "C:\\Program Files (x86)\\Icecream PDF Editor\\pdf-xpansion-cjk.pds"
+19:38:36.493: (I)  2436: sx                  : SX::init()                              : PDFCore file: OK "C:\\Users\\yashw\\AppData\\Local\\Icecream\\Icecream PDF Editor\\sx.dat"
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "en_US" FontInfo(PS: Calibri, LF: Calibri, DN: Calibri, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5), FontFlags(700, 2, 5), FontFlags(400, 2, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "en_US-bold" FontInfo(PS: Calibri-Bold, LF: Calibri, DN: Calibri, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5), FontFlags(700, 2, 5), FontFlags(400, 2, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "ja_JP" FontInfo(PS: YuGothic-Regular, LF: Yu Gothic, DN: Yu Gothic, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "ja_JP-bold" FontInfo(PS: YuGothic-Bold, LF: Yu Gothic, DN: Yu Gothic, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "ko_KR" FontInfo(PS: MalgunGothic, LF: Malgun Gothic, DN: Malgun Gothic, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "ko_KR-bold" FontInfo(PS: MalgunGothicBold, LF: Malgun Gothic, DN: Malgun Gothic, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_CN" FontInfo(PS: MicrosoftYaHei, LF: Microsoft YaHei, DN: Microsoft YaHei, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_CN-bold" FontInfo(PS: MicrosoftYaHei-Bold, LF: Microsoft YaHei, DN: Microsoft YaHei, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_HK" FontInfo(PS: MicrosoftJhengHeiRegular, LF: Microsoft JhengHei, DN: Microsoft JhengHei, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_HK-bold" FontInfo(PS: MicrosoftJhengHeiBold, LF: Microsoft JhengHei, DN: Microsoft JhengHei, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_TW" FontInfo(PS: MicrosoftJhengHeiRegular, LF: Microsoft JhengHei, DN: Microsoft JhengHei, F: (400, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+19:38:36.950: (I)  2436:                     : SX::FontsHelper::Private::initDefaultFon: Default font: "zh_TW-bold" FontInfo(PS: MicrosoftJhengHeiBold, LF: Microsoft JhengHei, DN: Microsoft JhengHei, F: (700, 0, 5), OF: QSet(FontFlags(700, 0, 5), FontFlags(400, 0, 5)))
+19:38:36.979: (I)  2436:                     : MinHookHelper::installHook()            : MH_InstallHook DONE 0x1063E475 target: 0x5d8c5cb0 detour: 0x3f8950
+19:38:37.003: (I)  2436:                     : MinHookHelper::installHook()            : MH_InstallHook DONE 0x10501CC0 target: 0x5d7f1cc0 detour: 0x3f7cc0
+19:38:37.028: (I)  2436:                     : MinHookHelper::installHook()            : MH_InstallHook DONE 0x104FC8A0 target: 0x5d7ec8a0 detour: 0x3f8890
+19:38:37.058: (I)  2436:                     : MinHookHelper::installHook()            : MH_InstallHook DONE 0x105D7220 target: 0x5d8c7220 detour: 0x3f7e40
+19:38:37.058: (I)  2436: sx                  : SX::init()                              : Catch getContent: true
+19:38:37.058: (I)  2436: sx                  : SX::init()                              : Sdk library init done. Version: "12.0.3.3"
+19:38:37.250: (I)  2436:                     : DebenuService::init()                   : Debenu lbrary init done
+19:38:37.252: (I)  2436:                     : DefaultsProvider::DefaultsProvider()    : Defaults loaded:
+19:38:37.252: (I)  2436:                     : DefaultsProvider::DefaultsProvider()    :  - opacities:      QMap((Enums::ToolType::ContentSelectTool, 0.8)(Enums::ToolType::ContentDrawRectTool, 1))
+19:38:37.252: (I)  2436:                     : DefaultsProvider::DefaultsProvider()    :  - pens:           QMap((Enums::ToolType::ContentDrawRectTool, QPen(0,QBrush(QColor(ARGB 1, 0, 0, 0),SolidPattern),NoPen,0,0,QVector(),0,10))(Enums::ToolType::ContentDrawLineTool, QPen(1,QBrush(QColor(ARGB 1, 0, 0, 0),SolidPattern),SolidLine,0,0,QVector(),0,10)))
+19:38:37.252: (I)  2436:                     : DefaultsProvider::DefaultsProvider()    :  - brushes:        QMap((Enums::ToolType::ContentDrawRectTool, QBrush(QColor(ARGB 1, 1, 1, 1),SolidPattern)))
+19:38:37.252: (I)  2436:                     : DefaultsProvider::DefaultsProvider()    :  - recent colors:  (QColor(ARGB 1, 0, 0, 0), QColor(Invalid), QColor(Invalid), QColor(Invalid), QColor(Invalid))
+19:38:37.252: (I)  2436:                     : DefaultsProvider::DefaultsProvider()    :  - eraser:         50
+19:38:37.252: (I)  2436:                     : DefaultsProvider::DefaultsProvider()    :  - content chars:  CharFormat{"Bahnschrift Condensed", non-bold, non-italic, canToggleBold, Sz: 12, #000000, opacity: 1}
+19:38:37.252: (I)  2436:                     : DefaultsProvider::DefaultsProvider()    :  - annot chars:    CharFormat{"Calibri", non-bold, non-italic, non-underlined, canToggle(bold, italic, underline), Sz: 11, #ff0000, Align-Left}
+19:38:37.252: (I)  2436:                     : IceStyleManager::IceStyleManager()      : Init StyleManager done
+19:38:37.252: (I)  2436:                     : IceStyleManager::setCurrentStyle()      : Set current style: "__Style"
+19:38:37.252: (I)  2436:                     : IceStyleManager::setCurrentStyle()      : Default app font was changed to QFont(Segoe UI,-1,14,5,50,0,0,0,0,0)
+19:38:37.616: (I)  2436:                     : NativeWindowUtils::eventFilter()        : IceWindow(0x3583570, name="MainWindow2") WinId created: 0x50620
+19:38:37.620: (I)  2436: ice.windowgeometry  : IceWindow::Private::onScreenChanged()   : MainWindow2(0x3583570) initial pixel ratio: 1.25 initial screen: QScreen(0xda8fe8, name="\\\\.\\DISPLAY1")
+19:38:37.620: (I)  2436: ice.windowgeometry  : IceWindow::IceWindow()                  : MainWindow2(0x3583570) early restore geometry: true QRect(68,20 1400x806) dpr: 1.25 QFlags<Qt::WindowState>(WindowMaximized)
+19:38:37.621: (I)  2436: ice.splash          : IceSplash::Private::onMinDurationReached: Splash min wait time is reached and app is ready. Show existing mainWindow or create it
+19:38:37.621: (I)  2436: ice.splash          : IceSplash::Private::onMinDurationReached: Main window still not exists
+19:38:37.676: (!)  2436:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Bahnschrift SemiBold SemiCondensed' is too long.
+19:38:37.686: (!)  2436:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Bahnschrift SemiLight SemiCondensed' is too long.
+19:38:38.251: (!)  2436:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Segoe UI Variable Display Semibold' is too long.
+19:38:38.256: (!)  2436:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Segoe UI Variable Display Semilight' is too long.
+19:38:38.271: (!)  2436:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Segoe UI Variable Small Semibold' is too long.
+19:38:38.271: (!)  2436:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Segoe UI Variable Small Semilight' is too long.
+19:38:38.294: (!)  2436:                     : QWindowsFontDatabase::fontDefToLOGFONT: Family name 'Segoe UI Variable Text Semilight' is too long.
+19:38:38.442: (I)  2436:                     : FontFamiliesComboBox::Private::fillCombo: Fonts popup is filled in 804 ms. Fonts count: 133
+19:38:38.522: (I)  2436:                     : FontFamiliesComboBox::Private::fillCombo: Fonts combo adjust size is done in 83 ms
+19:38:38.547: (I)  2436: pdf.actionsprovider : ActionsProvider::triggerAction()        : Trigger action: Enums::ActionType::NavBar_ShowTab , userData: QVariant(Enums::NavBarTab, "Thumbnails")
+19:38:38.547: (I)  2436: ice.splash          : IceSplash::setMainWindowIsReady()       : Main window was created. Finish splash using MainWindow2(0x3583570)
+19:38:38.557: (I)  2436:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  : Custom margins applyed for QWindow QWidgetWindow(0x3fd6018, name="MainWindow2Window") QMargins(-9, -38, -9, -9) caption 29 dpr 1.25
+19:38:38.557: (I)  2436:                     : WinApi::maybeFixDwmNewQtWmNccalcsize()  : Custom margins are applyed for existing QPlatformWindow 0x3f5a1d8 QMargins(-9, -38, -9, -9) caption 29 dpr 1.25
+19:38:38.707: (I)  2436:                     : LicenseService::licenseFile()           : License full path: "C:\\Users\\yashw\\AppData\\Local\\Icecream\\Icecream PDF Editor\\license.lic"
+19:38:38.707: (!)  2436:                     : LicenseService::loadLicenseInfo()       : "License file not found: C:\\Users\\yashw\\AppData\\Local\\Icecream\\Icecream PDF Editor\\license.lic"
+19:38:38.717: (I)  2436:                     : AssocFilesHandler::Private::isDefault() : QueryCurrentDefault( ".pdf" ) suceeded, result: "MSEdgePDF" isDefault: false
+19:38:43.767: (I)  2436: ice.updater         : IceUpdateChecker::checkForUpdates()     : Get actual version number from "http://updates.icecreamapps.com/check.php?ver=2.62&pid=6&mh=16589014358777975a014a6a99cefcb4&h=5bec4cbe2a97a916694812b5eb323bd4"
+19:38:44.786: (I)  2436: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Server response: "2.62"
+19:38:44.786: (I)  2436: ice.updater         : IceUpdateChecker::Private::onReplyFinish: Compare versions.  server version: "2.62" current version: 2.62 result: 0
+19:38:46.036: (I)  2436:                     : main()                                  : App event loop finished, flush metrics
+19:38:46.037: (I)  2436:                     : main()                                  : MetricSender::WaitForSendAll() finished, quit app
+19:38:46.074: (I)  2436:                     : MinHookHelper::removeHook()             : MH_RemoveHook DONE hook
+19:38:46.105: (I)  2436:                     : MinHookHelper::removeHook()             : MH_RemoveHook DONE hook
+19:38:46.135: (I)  2436:                     : MinHookHelper::removeHook()             : MH_RemoveHook DONE hook
+19:38:46.162: (I)  2436:                     : MinHookHelper::removeHook()             : MH_RemoveHook DONE hook
+19:38:46.388: (I)  2436: sx                  : SX::unload()                            : Sdk library free OK
+19:38:46.403: (I)  2436: ice.application     : IceApplication::~IceApplication()       : App is finished normally.
+19:38:46.452: (I)  2436:                     : MinHookHelper::~MinHookHelper()         : MH_Uninitialize OK

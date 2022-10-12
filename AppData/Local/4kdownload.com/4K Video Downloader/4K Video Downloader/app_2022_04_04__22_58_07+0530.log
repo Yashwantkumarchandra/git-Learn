@@ -1,0 +1,63 @@
+2022-04-04 22:58:07.884024 +0530 (0x000002d8) [info] [CrashDump] Starting handler at C:/Program Files/4KDownload/4kvideodownloader
+2022-04-04 22:58:08.948754 +0530 (0x00003584) [info] [http] [HttpDownloaderImpl_0000000000000001] Start http downloader https://dl.4kdownload.com/app/settings/4kvideodownloader.crash.json
+2022-04-04 22:58:08.954771 +0530 (0x000002d8) [info] [app_Gui] [BaseTranslator] Using locale en_US
+2022-04-04 22:58:08.970700 +0530 (0x000045c0) [info] [http] [HttpDownloaderImpl_0000000000000002] Start http downloader https://dl.4kdownload.com/app/advertisement/videodownloader.xml
+2022-04-04 22:58:08.970700 +0530 (0x00003584) [info] [http] [HttpDownloaderImpl_0000000000000003] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.20.1.4780&ec=Application&ea=Run&el=First&ev=0&cprop=%7B%22start_day%22%3A94%2C%22start_year%22%3A2022%7D&z=25697
+2022-04-04 22:58:08.971694 +0530 (0x00003584) [info] [http] [HttpDownloaderImpl_0000000000000004] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.20.1.4780&ec=Application&ea=Platform&el=windows-64-10.0.22000&cprop=%7B%22platform%22%3A%22windows-64%22%2C%22platform_version%22%3A%2210.0.22000%22%7D&z=24365
+2022-04-04 22:58:08.971694 +0530 (0x000002d8) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.20.1.4780, appCast=https://dl.4kdownload.com/app/appcast/videodownloader.xml
+2022-04-04 22:58:08.972690 +0530 (0x00003584) [info] [http] [HttpDownloaderImpl_0000000000000005] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.20.1.4780&ec=Application&ea=Resolution&el=1280x720&z=3953
+2022-04-04 22:58:08.973691 +0530 (0x00003584) [info] [http] [HttpDownloaderImpl_0000000000000006] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.20.1.4780&ec=Application&ea=LogicalDPI&el=96&z=28216
+2022-04-04 22:58:08.974688 +0530 (0x00003584) [info] [http] [HttpDownloaderImpl_0000000000000007] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.20.1.4780&ec=License&ea=State&el=free&cprop=%7B%22license%22%3A%22free%22%7D&z=19215
+2022-04-04 22:58:08.977476 +0530 (0x000002d8) [warning] Qt WebEngine resources not found at C:/Program Files/4KDownload/4kvideodownloader/resources. Trying parent directory... (:0, )
+2022-04-04 22:58:08.977476 +0530 (0x000002d8) [warning] Installed Qt WebEngine locales directory not found at location C:/Program Files/4KDownload/4kvideodownloader/translations\qtwebengine_locales. Trying application directory... (:0, )
+2022-04-04 22:58:09.652127 +0530 (0x000022ec) [info] [NetworkReachability] [Loop_000000526A0FF0D0] network is reachable
+2022-04-04 22:58:09.845687 +0530 (0x000045c0) [debug] [http] [HttpDownloaderImpl_0000000000000002] handleOpen system:0:The operation completed successfully
+2022-04-04 22:58:09.845687 +0530 (0x000045c0) [debug] [http] [HttpDownloaderImpl_0000000000000002] close
+2022-04-04 22:58:09.845687 +0530 (0x000045c0) [debug] [http] [HttpDownloaderImpl_0000000000000002] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-04-04 22:58:09.848233 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000001] handleOpen system:0:The operation completed successfully
+2022-04-04 22:58:09.849229 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000001] close
+2022-04-04 22:58:09.849229 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000001] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-04-04 22:58:09.880929 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000007] handleOpen system:0:The operation completed successfully
+2022-04-04 22:58:09.880929 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000007] close
+2022-04-04 22:58:09.880929 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000007] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-04-04 22:58:09.881931 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000005] handleOpen system:0:The operation completed successfully
+2022-04-04 22:58:09.881931 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000005] close
+2022-04-04 22:58:09.881931 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000005] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-04-04 22:58:09.890718 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000003] handleOpen system:0:The operation completed successfully
+2022-04-04 22:58:09.890718 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000003] close
+2022-04-04 22:58:09.890718 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000003] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-04-04 22:58:09.903247 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000004] handleOpen system:0:The operation completed successfully
+2022-04-04 22:58:09.903247 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000004] close
+2022-04-04 22:58:09.903247 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000004] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-04-04 22:58:09.936312 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000006] handleOpen system:0:The operation completed successfully
+2022-04-04 22:58:09.936312 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000006] close
+2022-04-04 22:58:09.936312 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000006] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-04-04 22:58:10.116414 +0530 (0x00003584) [info] [http] [HttpDownloaderImpl_0000000000000008] Start http downloader https://dl.4kdownload.com/app/news/videodownloader.json
+2022-04-04 22:58:10.116414 +0530 (0x000002d8) [info] [downloader] [HttpDownloaderQueue_0000024EBE78FE90] Set max active count 1 -> 2
+2022-04-04 22:58:10.116414 +0530 (0x00000f14) [info] [downloader] [HttpDownloaderQueue_0000024EBE78FE90] Checking queue: state: Initial; force: no; size: 0
+2022-04-04 22:58:10.116414 +0530 (0x000002d8) [info] [http] [HttpDownloaderImpl_0000000000000009] Start http downloader http://sa.openmedia.co:8018/getinfo
+2022-04-04 22:58:10.116414 +0530 (0x00000f14) [info] [downloader] [HttpDownloaderQueue_0000024EBE78FE90] Checking queue: state: Pending; force: no; size: 0
+2022-04-04 22:58:10.118190 +0530 (0x000002d8) [info] Creating new io context pool '' with 4 thread(s)
+2022-04-04 22:58:10.119198 +0530 (0x00001b28) [info] AsioContext::IoContext::threadFunc started
+2022-04-04 22:58:10.119198 +0530 (0x00002ac4) [info] AsioContext::IoContext::threadFunc started
+2022-04-04 22:58:10.119198 +0530 (0x0000326c) [info] AsioContext::IoContext::threadFunc started
+2022-04-04 22:58:10.119198 +0530 (0x00003c90) [info] AsioContext::IoContext::threadFunc started
+2022-04-04 22:58:10.122695 +0530 (0x00003c90) [info] There are not subscriptions. Iteration is not started
+2022-04-04 22:58:10.122695 +0530 (0x00003c90) [info] Check subscription after 300s
+2022-04-04 22:58:10.342091 +0530 (0x00003584) [info] [http] [HttpDownloaderImpl_000000000000000A] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.20.1.4780&ec=Subscription&ea=Load&ev=0&z=4553
+2022-04-04 22:58:10.870219 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000008] handleOpen system:0:The operation completed successfully
+2022-04-04 22:58:10.870219 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000009] handleOpen system:0:The operation completed successfully
+2022-04-04 22:58:10.870219 +0530 (0x000022ec) [info] User external ip info: {"ip":"110.227.62.128"}
+2022-04-04 22:58:10.870219 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000009] close
+2022-04-04 22:58:10.870219 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000009] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-04-04 22:58:10.871277 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000008] close
+2022-04-04 22:58:10.871277 +0530 (0x000002d8) [info] [Feedback] [NewsCenter] downloaded
+2022-04-04 22:58:10.871277 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_0000000000000008] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-04-04 22:58:11.037486 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_000000000000000A] handleOpen system:0:The operation completed successfully
+2022-04-04 22:58:11.037486 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_000000000000000A] close
+2022-04-04 22:58:11.038691 +0530 (0x000022ec) [debug] [http] [HttpDownloaderImpl_000000000000000A] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-04-04 22:58:14.997224 +0530 (0x000002d8) [info] Agreement rejected
+2022-04-04 22:58:14.999325 +0530 (0x0000326c) [info] AsioContext::IoContext::threadFunc finished
+2022-04-04 22:58:14.999325 +0530 (0x00003c90) [info] AsioContext::IoContext::threadFunc finished
+2022-04-04 22:58:14.999325 +0530 (0x00002ac4) [info] AsioContext::IoContext::threadFunc finished
+2022-04-04 22:58:14.999325 +0530 (0x00001b28) [info] AsioContext::IoContext::threadFunc finished

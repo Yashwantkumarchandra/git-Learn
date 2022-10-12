@@ -1,0 +1,83 @@
+2022-10-06 18:52:56.417706 +0530 (0x000020e4) [info] [CrashDump] Starting handler at C:/Program Files/4KDownload/4kvideodownloader
+2022-10-06 18:52:56.475553 +0530 (0x000020e4) [info] [app_Gui] [BaseTranslator] Using locale en_US
+2022-10-06 18:52:56.481538 +0530 (0x00003c78) [info] [http] [HttpDownloaderImpl_0000000000000001] Start http downloader https://dl.4kdownload.com/app/settings/4kvideodownloader.crash.json
+2022-10-06 18:52:57.904665 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000001] handleOpen system:0:The operation completed successfully
+2022-10-06 18:52:57.905681 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000001] close
+2022-10-06 18:52:57.908667 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000001] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-06 18:52:58.504493 +0530 (0x00003c78) [info] [http] [HttpDownloaderImpl_0000000000000002] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Application&ea=Run&el=Less%20than%2010&ev=8&z=16192
+2022-10-06 18:52:58.504493 +0530 (0x00003c78) [info] [http] [HttpDownloaderImpl_0000000000000003] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Application&ea=Platform&el=windows-64-10.0.22621&cprop=%7B%22platform%22%3A%22windows-64%22%2C%22platform_version%22%3A%2210.0.22621%22%7D&z=29564
+2022-10-06 18:52:58.506487 +0530 (0x00000d90) [info] [http] [HttpDownloaderImpl_0000000000000004] Start http downloader https://dl.4kdownload.com/app/advertisement/videodownloader.xml
+2022-10-06 18:52:58.511473 +0530 (0x000020e4) [info] [SoftwareUpdate] [Manager] appId=4kvideodownloader, appName=4K Video Downloader, appVersion=4.21.7.5040, appCast=https://dl.4kdownload.com/app/appcast/videodownloader.xml
+2022-10-06 18:52:59.413186 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000002] handleOpen system:0:The operation completed successfully
+2022-10-06 18:52:59.414184 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000003] handleOpen system:0:The operation completed successfully
+2022-10-06 18:52:59.419171 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000002] close
+2022-10-06 18:52:59.420168 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000003] close
+2022-10-06 18:52:59.420168 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000002] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-06 18:52:59.420168 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000003] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-06 18:52:59.858372 +0530 (0x00000d90) [debug] [http] [HttpDownloaderImpl_0000000000000004] handleOpen system:0:The operation completed successfully
+2022-10-06 18:52:59.858372 +0530 (0x00000d90) [debug] [http] [HttpDownloaderImpl_0000000000000004] close
+2022-10-06 18:52:59.858372 +0530 (0x00000d90) [debug] [http] [HttpDownloaderImpl_0000000000000004] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-06 18:52:59.863367 +0530 (0x00000e44) [info] [NetworkReachability] [Loop_000000551E4FEF60] network is reachable
+2022-10-06 18:53:00.721024 +0530 (0x00003c78) [info] [http] [HttpDownloaderImpl_0000000000000005] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=License&ea=State&el=free&cprop=%7B%22license%22%3A%22free%22%7D&z=28889
+2022-10-06 18:53:00.748949 +0530 (0x000020e4) [warning] Qt WebEngine resources not found at C:/Program Files/4KDownload/4kvideodownloader/resources. Trying parent directory... (:0, )
+2022-10-06 18:53:00.749947 +0530 (0x000020e4) [warning] Installed Qt WebEngine locales directory not found at location C:/Program Files/4KDownload/4kvideodownloader/translations\qtwebengine_locales. Trying application directory... (:0, )
+2022-10-06 18:53:01.548481 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000005] handleOpen system:0:The operation completed successfully
+2022-10-06 18:53:01.549469 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000005] close
+2022-10-06 18:53:01.549469 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000005] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-06 18:53:01.631773 +0530 (0x00002048) [info] Enter WorkerGraphManager::checkingThread
+2022-10-06 18:53:01.631773 +0530 (0x0000544c) [info] Enter WorkerGraphManager::statisticsLogThread
+2022-10-06 18:53:01.640748 +0530 (0x000020e4) [info] [downloader] [HttpDownloaderQueue_00000209E09CE060] Set max active count 1 -> 2
+2022-10-06 18:53:01.640748 +0530 (0x00003c78) [info] [http] [HttpDownloaderImpl_0000000000000006] Start http downloader https://dl.4kdownload.com/app/news/videodownloader.json
+2022-10-06 18:53:01.640748 +0530 (0x000020e4) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000209E09D12E0] Set max active count 1 -> 2
+2022-10-06 18:53:01.640748 +0530 (0x00004b44) [info] [downloader] [HttpDownloaderQueue_00000209E09CE060] Checking queue: state: Initial; force: no; size: 0
+2022-10-06 18:53:01.640748 +0530 (0x00002720) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000209E09D12E0] Checking queue: state: Initial; force: no; size: 0
+2022-10-06 18:53:01.640748 +0530 (0x00004b44) [info] [downloader] [HttpDownloaderQueue_00000209E09CE060] Checking queue: state: Pending; force: no; size: 0
+2022-10-06 18:53:01.640748 +0530 (0x00002720) [info] [SimpleExecutionQueue] [Queue[ConversionQueue]_00000209E09D12E0] Checking queue: state: Pending; force: no; size: 0
+2022-10-06 18:53:01.640748 +0530 (0x000020e4) [info] [http] [HttpDownloaderImpl_0000000000000007] Start http downloader http://sa.openmedia.co:8018/getinfo
+2022-10-06 18:53:01.641748 +0530 (0x00004190) [info] EventDispatcher is started
+2022-10-06 18:53:01.646732 +0530 (0x000020e4) [info] Creating new io context pool '' with 4 thread(s)
+2022-10-06 18:53:01.647730 +0530 (0x00005c10) [info] AsioContext::IoContext::threadFunc started
+2022-10-06 18:53:01.647730 +0530 (0x000023a4) [info] AsioContext::IoContext::threadFunc started
+2022-10-06 18:53:01.647730 +0530 (0x00002208) [info] AsioContext::IoContext::threadFunc started
+2022-10-06 18:53:01.647730 +0530 (0x00004f30) [info] AsioContext::IoContext::threadFunc started
+2022-10-06 18:53:01.647730 +0530 (0x00004f30) [info] There are not subscriptions. Iteration is not started
+2022-10-06 18:53:01.647730 +0530 (0x00004f30) [info] Check subscription after 300s
+2022-10-06 18:53:01.909761 +0530 (0x00003c78) [info] [http] [HttpDownloaderImpl_0000000000000008] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Subscription&ea=Load&ev=0&z=13016
+2022-10-06 18:53:01.913747 +0530 (0x00003c78) [info] [http] [HttpDownloaderImpl_0000000000000009] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Application&ea=Resolution&el=1920x1080&z=26838
+2022-10-06 18:53:01.914747 +0530 (0x00003c78) [info] [http] [HttpDownloaderImpl_000000000000000A] Start http downloader http://sa.openmedia.co:8018/collect?v=1&tid=&cid=b7ac702c-b880-4fdb-b883-20e3fc58ff23&t=event&an=4K%20Video%20Downloader&av=4.21.7.5040&ec=Application&ea=LogicalDPI&el=120&z=29581
+2022-10-06 18:53:02.522369 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000006] handleOpen system:0:The operation completed successfully
+2022-10-06 18:53:02.522369 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000006] close
+2022-10-06 18:53:02.522369 +0530 (0x000020e4) [info] [Feedback] [NewsCenter] downloaded
+2022-10-06 18:53:02.522369 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000006] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-06 18:53:02.994248 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000008] handleOpen system:0:The operation completed successfully
+2022-10-06 18:53:02.995760 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000009] handleOpen system:0:The operation completed successfully
+2022-10-06 18:53:02.995760 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_000000000000000A] handleOpen system:0:The operation completed successfully
+2022-10-06 18:53:02.995760 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000008] close
+2022-10-06 18:53:02.995760 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000009] close
+2022-10-06 18:53:02.995760 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_000000000000000A] close
+2022-10-06 18:53:02.995760 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000008] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-06 18:53:02.995760 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000009] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-06 18:53:02.995760 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_000000000000000A] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-06 18:53:03.693082 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000007] handleOpen system:0:The operation completed successfully
+2022-10-06 18:53:03.693082 +0530 (0x00000e44) [info] User external ip info: {"ip":"49.43.40.199"}
+2022-10-06 18:53:03.693082 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000007] close
+2022-10-06 18:53:03.693082 +0530 (0x00000e44) [debug] [http] [HttpDownloaderImpl_0000000000000007] handleCancel system:995:The I/O operation has been aborted because of either a thread exit or an application request
+2022-10-06 18:53:08.376944 +0530 (0x000020e4) [warning] QMainWindow::saveState(): 'objectName' not set for QToolBar 0x209eac3aee0 '' (:0, )
+2022-10-06 18:53:08.408736 +0530 (0x00002048) [info] Finished WorkerGraphManager::checkingThread
+2022-10-06 18:53:08.408736 +0530 (0x000020e4) [info] WorkerGraphManager is stopping
+2022-10-06 18:53:08.408736 +0530 (0x0000544c) [info] Finished WorkerGraphManager::statisticsLogThread
+2022-10-06 18:53:08.423743 +0530 (0x000020e4) [info] WorkerGraphManager is stopped
+2022-10-06 18:53:08.423743 +0530 (0x00004190) [info] EventDispatcher is finishing
+2022-10-06 18:53:08.423743 +0530 (0x00004190) [info] EventDispatcher is finished
+2022-10-06 18:53:08.423743 +0530 (0x00002208) [info] AsioContext::IoContext::threadFunc finished
+2022-10-06 18:53:08.423743 +0530 (0x00004f30) [info] AsioContext::IoContext::threadFunc finished
+2022-10-06 18:53:08.423743 +0530 (0x000023a4) [info] AsioContext::IoContext::threadFunc finished
+2022-10-06 18:53:08.423743 +0530 (0x00005c10) [info] AsioContext::IoContext::threadFunc finished
+2022-10-06 18:53:08.423743 +0530 (0x00002720) [info] [SimpleExecutionQueue] [QueueHandlingThread_00000209E09D12E0] finishing
+2022-10-06 18:53:08.423743 +0530 (0x00002720) [info] [SimpleExecutionQueue] [QueueHandlingThread_00000209E09D12E0] finished
+2022-10-06 18:53:08.423743 +0530 (0x00001434) [info] [SimpleExecutionQueue] [NotificationHandlingThread_00000209E09D12E0] finishing
+2022-10-06 18:53:08.423743 +0530 (0x00001434) [info] [SimpleExecutionQueue] [NotificationHandlingThread_00000209E09D12E0] finished
+2022-10-06 18:53:08.423743 +0530 (0x00004b44) [info] [downloader] [QueueHandlingThread_00000209E09CE060] finishing
+2022-10-06 18:53:08.423743 +0530 (0x00004b44) [info] [downloader] [QueueHandlingThread_00000209E09CE060] finished
+2022-10-06 18:53:08.423743 +0530 (0x0000405c) [info] [downloader] [NotificationHandlingThread_00000209E09CE060] finishing
+2022-10-06 18:53:08.423743 +0530 (0x0000405c) [info] [downloader] [NotificationHandlingThread_00000209E09CE060] finished
